@@ -1,3 +1,4 @@
+<!--    Wie zijn wij    -->
 <div class="block wiezijnwij">
     <img class="yellowlion" src="<?php echo base_url(); ?>assets/images/yellowlion.png" />
     <div class="container textual">
@@ -16,12 +17,11 @@
         </p>
     </div>
 </div>
+<!--    Evenementen    -->
 <div class="block activiteiten block-picture">
     <div class="container textual">
         <h2 class="h1">Activiteiten</h2>
-        <p>
-            Technica organiseert door het jaar heen leuke activiteiten. Wij nemen ook deel aan activiteiten in de stad Antwerpen.
-        </p>
+        <p> Technica organiseert door het jaar heen leuke activiteiten. Wij nemen ook deel aan activiteiten in de stad Antwerpen. </p>
         <div class="grid">
             <div class="col-2 mcol-1">
                 <ul>
@@ -45,11 +45,29 @@
         </div>
     </div>
 </div>
+<!--    Truien    -->
+<div class="block truien">
+    <div class="container textual">
+        <h2 class="h1 center">Technica Truien</h2>
+        <div class="grid">
+            <div class="col-2 mcol-1 center">
+                <img src="<?php echo base_url(); ?>assets/images/truien2122.jpeg" />
+            </div>
+            <div class="col-2 mcol-1">
+                <ul class="list">
+                    <li>Mannen Truien</li>
+                    <li>Vrouwen Truien</li>
+                    <li>T-Shirts</li>
+                </ul>
+                <a class="call-to-action center" href="https://forms.gle/z6ykAh4icC7C8ARV6">Bestel Nu</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--    Hoogpreasidium    -->
 <div class="block onsteam">
     <div class="container textual shield-container">
         <h2 class="h1 center">Ontmoet het <span>Praesidium</span></h2>
-        
-        </figure>
         <div class="grid0">
             <!--<div class="col-27 medium-shield shield-image">
                 <img class="avatar" src="<?php echo base_url(); ?>assets/images/wim_van_den_kieboom_schild.jpg" />

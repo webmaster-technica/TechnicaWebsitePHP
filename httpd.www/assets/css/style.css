@@ -1,7 +1,10 @@
- /*
+/*
     Author: Ruben Nemes
     E-mail: nemesruben@gmail.com
 */
+
+
+
 /* CSS RESET */
 html, body, div, span, applet, object, iframe, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,6 +24,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -41,6 +47,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
 
 /* GLOBAL SETTINGS */
 body {
@@ -136,6 +144,9 @@ p {
     -ms-user-select: text;
     user-select: text;
 }
+
+
+
 /* HEADER */
 .top-header {
     background-color: #1471b7;
@@ -189,6 +200,8 @@ p {
     width: 105px;
 }
 
+
+
 /* MENU */
 .hamburger, .mobile-menu {
     display: none;
@@ -238,6 +251,8 @@ p {
     right: 0;
 }
 
+
+
 /* OVERLAY */
 .homepage-overlay {
     margin-top: 100px;
@@ -257,6 +272,8 @@ p {
 .homepage-overlay h2 {
     
 }
+
+
 
 /* HOMEPAGE */
 .wiezijnwij .yellowlion {
@@ -293,6 +310,25 @@ p {
    padding-right: 5px;
 }
 
+.truien img {
+    width: 480px;
+}
+.truien ul li {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 26px;
+}
+.truien ul li:before {
+   content: "■";
+   font-size: 50px;
+   color: #1471b7;
+   padding-right: 5px;
+}
+.truien .list{
+    margin: auto;
+    max-width: 300px;
+    padding: 10px;
+}
+
 .shield-container {
     max-width: 940px;
 }
@@ -318,6 +354,8 @@ p {
     margin-top: 40px;
 }
 
+
+
 /* OVER ONS */
 .overons p span {
     font-size: 18px;
@@ -340,6 +378,8 @@ p {
     text-align: center;
     font-size: 24px;
 }
+
+
 
 /* PRAESIDIUM */
 .praesidium .grid {
@@ -411,6 +451,8 @@ p {
     font-weight: bold;
 }
 
+
+
 /* LID WORDEN */
 .lidworden .container {
     max-width: 500px;
@@ -445,6 +487,8 @@ p {
 .lidworden .h1 {
     margin-bottom: 30px;
 }
+
+
 
 /* JOBPORTAAL */
 .jobportaal-menu ul li{
@@ -596,6 +640,8 @@ p {
     text-decoration: underline;
 }
 
+
+
 /* PARTNERS */
 .sponsor img {
     box-sizing: border-box;
@@ -644,6 +690,8 @@ p {
     margin-right: 20px;
 }
 
+
+
 /* DROPBOX */
 #slideshow { 
     margin: 50px auto; 
@@ -655,6 +703,9 @@ p {
 #slideshow > div { 
     text-align: center;
 }
+
+
+
 /* FOOTER */
 .footer {
     background-color: #313131;
@@ -710,6 +761,9 @@ p {
 .footer .contact-info div:last-of-type {
     border-bottom: none;
 }
+
+
+
 /* SOCKET */
 .socket {
     background-color: #2D2D2D;
@@ -717,12 +771,16 @@ p {
     color: #929292;
     text-align: center;
 }
+
+
+
 /* MOBILE */
 .hide-desktop {
     display: none;
 }
 
 @media screen and (max-width: 937px) {
+
     /* MENU */
     .hamburger {
         position: fixed;
@@ -838,6 +896,7 @@ p {
     }
 }
 @media screen and (max-width: 497px) {
+
     /* GLOBAL SETTINGS */
     .hide-desktop {
         display: none;
@@ -862,6 +921,8 @@ p {
         height: 300px;
     }
     
+
+
     /* HOMEPAGE */
     .wiezijnwij .yellowlion {
         right: -62%;
@@ -877,6 +938,8 @@ p {
         padding-top: 0;
         margin-top: -19px;
     }
+    
+
     
     /* OVER ONS */
     .clublied .paraaf.mirrored {
