@@ -1,0 +1,79 @@
+/*
+ *  Overview of the variables for Stir
+ *
+ *  Modify these settings to your liking, you'll need a sass parser for this to work:
+ *
+ *  Quick link: http://sass-lang.com/install
+ *
+ *  it's recommended to create your own scss / sass file and extend from this one
+ *  but modifying this file directly is fine too.
+ */
+
+// TODO: ^ commentaar niet over laten lopen in stir zelf
+
+// ########################
+// ##    BASE CLASSES    ##
+// ########################
+
+
+
+//  The maximum width for the container
+//  Accepts: px vw vh vmin vmax
+$maxContainerWidth: 1140px !default;
+
+//  The maximum amount of columns in a row next to each other
+//      Example: setting this to 5 will generate all the classes for col-1 to col-5 but col-6 and smaller columns will be absent
+$maxColumns: 7 !default;
+
+//  The default padding on both the left and right of a column / negative margin of a grid
+//  Possible units: px vw vh vmin vmax
+$defaultColumnPadding: 14px !default;
+
+//  Other possible column paddings
+//  Possible units: px vw vh vmin vmax
+$columnPaddings: 0px 8px 14px 20px !default;
+
+//  The top and bottom padding of .block elements
+//  Possible units: px vw vh vmin vmax
+$blockPadding: 80px !default;
+
+//  Maximum amount of .col-a elements a grid can contain
+$maxAutoColumns: 12 !default;
+
+//  Include Normalize.css at the top of stir
+//  Url: https://necolas.github.io/normalize.css/
+$useNormalize: true !default;
+
+
+
+// ########################
+// ##    RESPONSIVITY    ##
+// ########################
+
+
+
+//  The breakpoints for media queries
+//  The key stands for the class prefix
+//  The value stands for the maximum width at which the styles of the prefixed classes are applied
+//  Possible units: px vw vh vmin vmax
+$breakPoints: (
+    // Large
+    l: 1024px,
+
+    // Medium
+    m: 920px,
+
+    // Small
+    s: 768px,
+
+    // Tiny
+    t: 480px
+) !default;
+
+// Whether or not to adapt the container width to the nearest smaller media query width
+//      Example: Having 2 breakpoints in the list above: "m: 920px" and "s: 768px" and having a viewport width of 800
+//               pixels will limit the container width at 768 pixels
+$containerJumps: true !default;
+
+//
+$scrollBarWidth: 17px;

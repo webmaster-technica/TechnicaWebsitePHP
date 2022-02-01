@@ -1,0 +1,33 @@
+@mixin columns($maxColumns, $prefix) {
+    $parsedWidths: ();
+
+    @for $i from 1 through $maxColumns {
+        .#{$prefix}col-#{$i} {
+            width: 100% / $i;
+        }
+        .#{$prefix}col-off-#{$i} {
+            margin-left: 100% / $i;
+        }
+
+        @if $i > 2 {
+            @for $j from $i - 1 through 2 {
+                $percentage: 100% * ($j / $i);
+
+                @if in-list($percentage, $parsedWidths) == false {
+                    $parsedWidths: append($parsedWidths, $percentage);
+                    $colSuffix: if($j > 9, #{$j}-#{$i}, #{$j}#{$i});
+
+                    .#{$prefix}col-#{$colSuffix} {
+                        width: $percentage;
+                    }
+                    .#{$prefix}col-off-#{$colSuffix} {
+                        margin-left: $percentage;
+                    }
+                }
+            }
+        }
+    }
+}
+@mixin grids($columnPaddings, $prefix) {
+
+}

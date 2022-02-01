@@ -1,0 +1,11 @@
+/**********************************/
+/*                                */
+/*             TODO               */
+/*                                */
+/**********************************/
+
+- metadata + favicon voor alle devices (OG tags voor facebook)
+- analytics
+- cloudflare
+- slashes afvangen
+- pagina titels via controller

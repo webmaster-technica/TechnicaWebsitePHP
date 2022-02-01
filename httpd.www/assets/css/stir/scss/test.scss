@@ -1,0 +1,28 @@
+//b == 0 ? a : gcm(b, a % b);
+//
+//public static long gcm(long a, long b) {
+//    return b == 0 ? a : gcm(b, a % b); // Not bad for one line of code :)
+//}
+//public static String asFraction(long a, long b) {
+//    long gcm = gcm(a, b);
+//    return (a / gcm) + "/" + (b / gcm);
+//}
+
+@function gcm($a, $b) {
+    @if $b == 0 {
+        @return $a;
+    }
+    @else {
+        @return gcm($b, $a % $b);
+    }
+}
+
+@function asFraction($a, $b) {
+    $gcm: gcm($a, $b);
+
+    @return $a / $gcm + "/" + $b / $gcm;
+}
+
+body {
+    width: asFraction(4, 6);
+}

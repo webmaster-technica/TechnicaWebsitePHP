@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title id="titel">UNDECIM</title>
+    <link rel="icon" href="/Used Pictures/1x1 undecim 9.ico" type="image/icon" sizes="256x256">
+    <link href="../grid/simple-grid.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Importeren van lettertypes hieronder (https://fonts.google.com/),  mogen uiteraard veranderd worden...-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">         <!--In class steken => "font-family: 'Roboto Condensed', sans-serif;"-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">                 <!--In class steken => "font-family: 'Open Sans', sans-serif;" / "font-family: 'Roboto', sans-serif;"-->
+    <!---------------------------------------------------------------------------------------------------------->
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Roboto', 'sans-serif';
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+        }
+        /*!!!! UNDECIM schildkleur => color: #e5b61f; (GEEL) / (c7a128 => donkergeel) !!!!*/
+
+        .slideMenu {                                            /* begin Mobile Menu SIDENOTE: probeer hier zo weinig mogelijk aan te passen, kleuren enzo zijn geen probleem*/
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 2;
+            top: 0;
+            left: 0;
+            background-color: black; /*kleur menu achtergrond*/
+            overflow-x: hidden;
+            padding-top: 15px;
+            transition: 0.3s ease-out;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .slideMenu a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 18px;
+            color: darkgray;    
+            display: block; /*kleur menu letters default*/
+            transition: 0.2s ease-out;
+        }
+        .slideMenu a:hover {        
+            color: white; /*kleur menu letters met muis erop*/
+        }
+
+        .slideMenu .sluitKnop {
+            position: absolute;
+            top: 0;
+            right: 20px;
+            font-size: 36px;
+            margin-left: 50;
+            color: #e5b61f;
+        }
+        .slideMenu .sluitKnop:hover {
+            color: #ad8914;
+        }                                                       /* einde Menu DEZE MENU IS ENKEL MOBILE VERSION: Zie script1.js*/
+
+        .hoofdMenu {
+            overflow: hidden;
+            background-color: rgba(0, 0, 0, 0.85);
+            position: fixed;
+            top: -40px;
+            width: 100%;
+            z-index: 2;
+            height: 54px;
+            transition: top .2s ease;
+            word-spacing: 0;
+        }
+        .hoofdMenu a {
+            float: left;
+            display: block;
+            color: lightgrey;
+            z-index: 2;
+            text-align: center;
+            font-family: 'Roboto', 'sans serif';
+            padding: 18px 16px;
+            text-decoration: none;
+            transition: 0.3s ease;
+            user-select: none;
+            
+        }
+        .hoofdMenu a:hover {
+            background-color: rgba(60, 60, 60, 0.7);
+            color: white;
+            transition: 0.3s ease;
+        }
+        #main {
+            transition: margin-left .3s ease-out;
+            
+        }
+    
+        .UNDECIMtitel {
+            font-family: 'Roboto Condensed', sans-serif;
+            background-color: transparent;
+            -webkit-text-stroke: #e5b61f 3px;
+            font-size: 500%;
+            margin-top: 53px;
+            
+        }
+        .col-4 a img{
+            display: block;
+            margin: auto;
+        }
+        .col-4 div img {
+            width: 100.1%;
+            display: block;
+            margin: auto;
+            /* margin-top: 15px; */
+
+        }
+        .col-4 div p {
+            justify-content: center;
+            text-align: center;
+        }
+        .row p {
+            padding:0;
+            margin: 0;
+            margin-left: 10%;
+        }
+        .col-6 p{
+            margin: 0;
+            padding: 15px;
+        }
+        
+        p {
+            margin-left: 10%;
+            margin-right: 10%;
+            text-align: justify;
+            justify-content: inter-word;
+            padding: 3%;
+        }
+        ::-webkit-scrollbar-corner {
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar {
+        width: 12px;
+        border-radius: 10px;
+        }
+        ::-webkit-scrollbar-track {
+        background: #e1e1e1; 
+        }
+        ::-webkit-scrollbar-thumb {
+        background-color: #888; 
+        border-radius: 10px;
+        transition: 0.5s ease;
+        }
+        ::-webkit-scrollbar-thumb:active {
+        background-color: #e5b61f; 
+        
+        }
+        ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+        transition: 0.5 ease;
+        }
+        /*FOTO's*/
+        .foto1, .foto2, .foto3, .foto4, .foto5 /*hier foto's toevoegen*/{
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size:cover;
+            opacity: 0.65;
+            z-index: -1;
+        }
+        .foto1 {
+            background-image: url("https://ulica.mk/wp-content/uploads/2018/10/pivo.jpg");
+            height: 800px;
+            user-select: none;
+        }
+        .foto2 {
+            background-image: url("https://blogmedia.evbstatic.com/wp-content/uploads/wpmulti/sites/8/shutterstock_199419065.jpg");
+            height: 400px;
+        }
+        .foto3 {
+            background-image: url("./Used Pictures/59903706_2352972261390900_7019229992034762752_o.jpg");
+            height: 400px;
+        }
+        .foto4 {
+            background-image: url("https://secure.static.tumblr.com/831b090b508549617c89575550089047/ho6nqns/gozn0v26w/tumblr_static_partygay.jpg");
+            height: 500px;
+        } 
+        .foto5 {
+            background-image: url("./Used Pictures/undecim2.0.png");
+            height: 500px;
+        } 
+        footer {
+            background-color: black;
+            color: white;
+        }
+        footer p, footer a {
+            color: rgb(149, 139, 139);
+        }
+        footer a {
+            margin-left: 10%;
+            margin-right: 10%;
+            
+        }
+        .phoneIcon {
+            background-color: rgb(149, 139, 139);
+            border-radius: 50%;
+            padding: 15px 7px 2px 7px;
+        }
+        .fa {
+            font-size: 200%;
+            color:rgba(200,200,2000,alpha);
+        }
+        .enveIcon .fa {
+            font-size: 155%;
+            
+        }
+        .enveIcon {
+            padding: 12px 5px 6px 6px;
+            background-color: rgb(149, 139, 139);
+            border-radius: 50%;
+        }
+        .instaIcon {
+            padding: 15px 7px 5px 7px;
+            background-color: rgb(149, 139, 139);
+            border-radius: 50%;
+        }
+        .instaIcon .fa {
+           font-size: 180%;
+        }
+        @media (max-width: "490px") {
+           .undecimIMG {
+               margin-left: 50%;
+               margin-right: 50%;
+               transition: 0.6s ease;
+           }
+           .UNDECIMtitel {
+               -webkit-text-stroke-color: blue 3px;
+           }
+           
+        }
+
+           @media (max-width: "600px") {
+           .undecimIMG {
+               margin-left: 10%;
+               transition: 0.6s ease;
+               
+           }
+           .hoofdMenu a{
+               color: red;
+           }
+           .UNDECIMtitel {
+               -webkit-text-stroke-color: blue;
+           }
+        }
+
+        
+        h2+p {
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top: 10%;
+            margin-bottom: 5%;
+        }
+        input.vraag {
+            background-color: rgba(100, 100, 100, 0.7);
+            border-color: transparent;
+            padding: 8px;
+            margin-bottom: 3%;
+            margin-top: 0;
+            /* box-shadow: 0px -2px 2px rgba(34,34,34,0.6); */
+            border-radius: 3px;
+            transition: 0.2s ease;
+            width: 100px;
+        }
+        input.vraag::placeholder {
+            color: lightgray;
+            font-weight: bold;
+        }
+        .container {
+          display: grid;
+            
+          margin:0;;
+          grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+          }
+          .hoofdding {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin:0;
+          }
+        .container .maandag, .container .dinsdag, .container .woensdag, .container .donderdag, .container .vrijdag, .container .vandaag {
+          height: 100%;
+          padding: 15px 15px 0px 15px;
+          background-color: #e5b61f;
+          border-bottom: 0px;
+          border-radius: 10px;
+          margin-bottom:  0px;
+        }
+        
+        .container .vandaag {   
+          /* border: 2px solid yellow; */
+          text-align: left;
+          
+          
+        }
+        .header {
+          
+          padding: 10px 13px 10px 13px;
+          
+          background-color: white;
+          border-radius: 50%;
+          display: inline-block;
+          margin-bottom: 15px;
+        }
+        .content {
+          background-color: white;
+          border-radius: 4px;
+          height: auto;
+          
+        }
+        .dagNr {
+              color: white;
+              font-size: 600%;
+              
+            }
+        .TODAY {
+          margin: 0;
+          font-size: 300%;
+          text-align: center;
+        }
+        .dag {
+          color: white;
+          font-weight: 1000;
+        }
+        .kalendertekst {
+            text-align: center;
+        }
+
+        @media screen and (min-width: 300px){
+            .activiteiten {
+                height: 3000px;
+            }
+            .container {
+              /* border: 2px dashed cadetblue; */
+              grid-template-columns: 1fr;
+              height: auto;
+              min-width: 261.11px;
+              gap: 5%;
+              transition: .5s ease;
+            }
+            .hoofdding {
+              grid-template-columns: 1fr 2fr;
+              margin-left: 17%;
+            }
+            .center {
+              margin: auto;
+              width: 60%;
+              padding: 10px;
+            }
+            .content {
+                text-align: center;
+            }
+            .dag {
+              margin-top: 90px;
+            }
+        } 
+        @media screen and (min-width: 1600px){
+            .activiteiten {
+                height: 750px;
+            }
+          .container {
+              /* border: 2px dashed darkblue; */
+              grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr;  
+              height: 200px;
+              
+              transition: .5s ease;
+            }
+            .hoofdding {
+              grid-template-columns: 1fr;
+              margin: 0;
+            }
+            .center {
+              margin: auto;
+              width: 90%;
+              padding: 10px;
+            }
+            .content {
+              width: 150px;
+              height: 250px;
+              padding-top: 35px;
+              text-align: center;
+            }
+            .dagNr {
+              text-align: center;
+              margin: 0;
+            }
+            
+            .dag {
+              text-align: center;
+              margin-top: 0;
+              padding: 0;
+              
+            }
+          }
+        
+    </style>
+
+</head>
+
+
+
+
+
+<body>
+
+    <header id="hoofdMENU" class="hoofdMenu"><nav>
+        <a href="#hoofdMENU">Home</a>
+        <a href="#activi">Activiteiten</a>
+        <a href="#leden">Opkomende leden</a>
+        <a href="#partner">Partners</a>
+        <a href="#vraagje">Stel een vraag</a>
+    </nav></header>
+    <div id="mijnSlideMenu" class="slideMenu">                  <!--MENU MOBILE-->
+        <a href="javascript:void(0)" class="sluitKnop" onclick="Sluiten()" id="sluitKn">&times;</a>
+        <a href="#bod" onclick="Sluiten()">Home</a><!--    # => SITE   -->
+        <a href="#activi" onclick="Sluiten()">Activiteiten</a>
+        <a href="#leden" onclick="Sluiten()">Opkomende leden</a>
+        <a href="#partner" onclick="Sluiten()">Partners</a>
+        <a href="#vraagje" onclick="Sluiten()">Stel een vraag</a>
+    </div>
+    <span onclick="Openen()" onmousedown="Openen()" style="opacity: 1; z-index: 1; position: fixed; top: 5px; left: 5px; cursor: pointer; font-size: 25px; color:#e5b61f; padding-left:6px;padding-right: 7px; background-color: rgba(255,255,255,0.5)" id="openKn"></span>        <!--Einde menu mobile-->
+
+    <div id="main">
+        <div class="foto1">
+            <div style="background-color:transparent; margin-bottom: '70%';">
+            <h1 class="UNDECIMtitel" style="text-align: center; z-index: 2">UNDECIM</h1>                              <!--Alles moet in deze <div> komen-->
+            <div>
+                <img style=" margin-left: 10%; user-select: none;" class="undecimIMG" src="Used Pictures/undecim2.0.png" style="z-index: 1;" width="250px"></div>
+        
+            </div>
+        </div>
+        <div style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 30px;"><p>Welkom bij <b><span style="font-family: 'Roboto Condensed', sans-serif; cursor: pointer;">Undecim</span></b>,  de ondervereniging van Technica. Vanaf 13 mei is het weer zover, de kiesweek.<span title="Kevin is Gay">.</span>.<br> Zoals elk jaar zullen alle opkomende leden vechten voor hun plaatsje in het geweldige praesidium van <a style="color: black" href="http://www.technica-antwerpen.be/" target="_blank">Technica</a>. Daarom organiseren wij gedurende een week allerlei activiteiten die onze capaciteiten zullen bewijzen. Graag willen wij onze partners bedanken voor het steunen van onze organisatie, neem zeker eens een kijkje bij onze partners.</p></div>
+            <div class="foto2"></div>
+            <div  id="activi" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 30px;">
+                <div class="activiteiten">
+                    <h2 style="padding-top: 80px">Activiteiten</h2>
+                    <div class="center">
+                        <h3>MEI</h3>
+                        <div class="container">
+                            <div class="vandaag">
+                                <p class="TODAY">TODAY</p>
+                                <div class="hoofdding">
+                                  <div class="dagNr" id="dayNr">16</div>
+                                  <div class="dag" id="Day">MAANDAG</div>
+                                </div>
+                                <div id="activity" style="font-size: 150%; text-align: center; color: white; font-weight: 600; letter-spacing: 3px; ">
+                                    KROEGENTOCHT
+                                </div>
+                                <div id="Hour" style="color: white; font-size: 140%; text-align:center;">21:00</div>
+                                <div id="Locate" style="color: white; text-align:center; font-size:120%; font-weight:800;">@Barbier (Stadswaag)</div>
+                                <!-- <span class="dagNr">16</span><span class="dag">MAANDAG</span> -->
+                            </div>
+          
+          
+          
+          
+                            <div class="maandag">
+                                MAANDAG<br>
+                              <b><span class="header">13</span></b><br>
+                              <div class="content">
+                                <p class="kalendertekst">KroegenTocht</p>
+                                <p class="kalendertekst">21:00</p>
+                                <p class="kalendertekst">@Café Barbier (Stadswaag)</p>
+                              </div>
+                            </div>
+                            <div class="dinsdag">
+                                DINSDAG<br>
+                                <b><span class="header">14</span></b>
+                                <div class="content">
+                                    <p class="kalendertekst">Bananen Foaf</p>
+                                    <p class="kalendertekst">21:00</p>
+                                    <p class="kalendertekst">@Café Barbier (Stadswaag)</p>
+                                </div>
+                             </div>
+                            <div class="woensdag">
+                                WOENSDAG<br>
+                                <b><span class="header">15</span></b>
+                                <div class="content">
+                                <p class="kalendertekst">Cantus</p>
+                                <p class="kalendertekst">20:30 (Io Vivat)</p>
+                                <p class="kalendertekst">@Wagetol (Stadswaag)</p>
+                              </div>
+                            </div>
+                            <div class="donderdag">
+                              DONDERDAG<br>
+                                <b><span class="header">16</span></b>
+                                <div class="content">
+                                <p class="kalendertekst">Bubble Soccer</p>
+                                <p class="kalendertekst">18:00</p>
+                                <p class="kalendertekst">@Park Spoor Noord</p>
+                                </div>
+                            </div>
+                            <div class="vrijdag">
+                                VRIJDAG<br>
+                                <b><span class="header">17</span></b>
+                                <div class="content">
+                                <p class="kalendertekst">Overwinningsvat</p>
+                                <p class="kalendertekst">21:00</p>
+                                <p class="kalendertekst">@Café Barbier (Stadswaag)</p>
+                              </div>
+                          </div>
+                          
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="foto3"></div>
+        <div style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 30px;">
+                <div id="leden">
+            <h2 style="padding-top:80px">Opkomende leden:</h2>
+                
+                <div class="row">
+                        <div class="col-4">
+                            <div style="border:#e5b61f solid 4px; border-top:#e5b61f solid 40px; border-radius: 10px;">
+                                
+                            <img src="/Used Pictures/leden1/annelies.jpg" width="60%">
+                            
+                            <p>Annelies Penders</p>
+                        </div>
+                        </div>
+                        <div class="col-4">
+                                <div style="border:#e5b61f solid 4px; border-top:#e5b61f solid 40px; border-radius: 10px;">
+                                <img src="/Used Pictures/leden1/béa.jpg" width="60%">
+                            <p>Béatrice Veldeman</p>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                                <div style="border:#e5b61f solid 4px; border-top:#e5b61f solid 40px; border-radius: 10px;">
+                                <img src="/Used Pictures/leden1/bjorn.jpg" width="60%">
+                            <p>Björn Brusten</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                         <div class="col-4">
+                                <div style="border:#e5b61f solid 4px; border-top:#e5b61f solid 40px; border-radius: 10px;">
+                                <img src="/Used Pictures/leden1/dephne.jpg" width="60%">
+                            <p>Daphne Cornet</p>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                                <div style="border:#e5b61f solid 4px; border-top:#e5b61f solid 40px; border-radius: 10px;">
+                            <img src="/Used Pictures/leden1/fabiow.jpg" width="60%">
+                            <p>Fabio Cantens</p>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                                <div style="border:#e5b61f solid 4px; border-top:#e5b61f solid 40px; border-radius: 10px;">
+                                <img src="/Used Pictures/leden1/gilles.jpg" width="60%">
+                            <p>Gilles Van de Sande</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <div style="border:#e5b61f solid 4px; border-top:#e5b61f solid 40px; border-radius: 10px;">
+                                <img src="/Used Pictures/leden1/helm.jpg" width="60%">
+                            <p>Helen Davis</p>
+                        </div>
+                        </div>
+                        <div class="col-4">
+                                <div style="border:#e5b61f solid 4px; border-top:#e5b61f solid 40px; border-radius: 10px;">
+                                <img src="/Used Pictures/leden1/jolle.jpg" width="60%">
+                            <p>Jolien De Busschere</p>
+                                </div>
+                        </div>
+                        <div class="col-4">
+                                <div style="border:#e5b61f solid 4px; border-top:#e5b61f solid 40px; border-radius: 10px;">
+                                <img id="kevFoto" src="/Used Pictures/leden1/kev.jpg" width="60%">
+                            <p>Kevin Davis</p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                                <div style="border:#e5b61f solid 4px; border-top:#e5b61f solid 40px; border-radius: 10px;">
+                                <img src="/Used Pictures/leden1/vlooimans.jpg" width="60%">
+                            <p>Kevin Vlaeymans</p>
+                                </div>
+                        </div>
+                        <div class="col-4">
+                                <div style="border:#e5b61f solid 4px; border-top:#e5b61f solid 40px; border-radius: 10px;">
+                                <img src="/Used Pictures/leden1/rudder.jpg" width="60%">
+                            <p>Philip De Rudder</p>
+                                </div>
+                        </div>
+                        <div class="col-4">
+                                <div style="border:#e5b61f solid 4px; border-top:#e5b61f solid 40px; border-radius: 10px;">
+                                <img src="/Used Pictures/leden1/robke.jpg" width="60%">
+                            <p>Rob Mertens</p>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-4">
+                                    <div style="border:#e5b61f solid 4px; border-top:#e5b61f solid 40px; border-radius: 10px;">
+                                    <img src="/Used Pictures/leden1/robbe.jpg" width="60%">
+                                <p>Robbe Jacops</p>
+                                    </div>
+                            </div>
+                            <div class="col-4">
+                                    <div style="border:#e5b61f solid 4px; border-top:#e5b61f solid 40px; border-radius: 10px;">
+                                    <img src="/Used Pictures/leden1/siebe.jpg" width="60%">
+                                <p>Siebe Perdieus</p>
+                                    </div>
+                            </div>
+                            <div class="col-4">
+                                    <div style="border:#e5b61f solid 4px; border-top:#e5b61f solid 40px; border-radius: 10px;">
+                                    <img src="/Used Pictures/leden1/steffie.jpg" width="60%">
+                                <p>Stef Martens</p>
+                                    </div>
+                            </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-4">
+                                    <div style="border:#e5b61f solid 4px; border-top:#e5b61f solid 40px; border-radius: 10px;">
+                                    <img src="/Used Pictures/leden1/thibaut.jpg" width="60%">
+                                <p>Thibaut Weekx</p>
+                                    </div>
+                            </div>
+                            <div class="col-4">
+                                <div style="border:#e5b61f solid 4px; border-top:#e5b61f solid 40px; border-radius: 10px;">
+                                    <img src="/Used Pictures/leden1/tim.jpg" width="60%">
+                                <p>Tim Arts</p>
+                            </div>
+                            </div>
+                            <div class="col-4">
+                                    <div style="border:#e5b61f solid 4px; border-top:#e5b61f solid 40px; border-radius: 10px;">
+                                    <img src="/Used Pictures/leden1/pueblop.jpg" width="60%">
+                                <p>Xavier Vincent</p>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+        </div>
+        <div class="foto4"></div>
+        <div id="partner" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 30px;">
+        
+                <h2 style="padding-top:80px">Partners:</h2>
+                <div>
+                <div class="row">
+                    <div class="col-4">
+                        <a href="https://contec.be/" target="_blank"><img src="./Used Pictures/Sponsors/contecZWET.png" width="80%"></a>
+                        <!-- <p>CONTEC</p> -->
+                    </div>
+                    <div class="col-4">
+                            <a href="https://www.dagiovanni.be/" target="_blank"><img src="./Used Pictures/Sponsors/DAGIOVANNI_red_rgb.jpg" width="80%"></a>
+                        <!-- <p>Da Giovanni</p> -->
+                    </div>
+                    <div class="col-4">
+                            <a href="http://www.dpworld.be/" target="_blank"><img src="./Used Pictures/Sponsors/DPW_Antwerp_positive_rgb.png" width="80%"></a>
+                        <!-- <p>DP World</p> -->
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col-4">
+                            <a href="http://www.eurochoccomp.eu/" target="_blank"><img src="./Used Pictures/Sponsors/europe-chocolate-company.jpg" width="80%"></a>
+                        <!-- <p style="cursor: pointer">Europe Chocolate Company</p> -->
+                    </div>
+                    <div class="col-4">
+                            <a onmouseover="test" id="guido" href="https://www.guido.be/" target="_blank"><img src="./Used Pictures/Sponsors/guido.png" width="80%"></a>
+                        <!-- <p onmouseover="test">KALM GUIDO</p> -->
+                        <script>
+                            function test() {
+                                setTimeout(function(){ document.getElementById("guido").title = "KALM GUIDO!";}, 5000);
+                                // setTimeout(function(){ document.getElementById("guido").title = "";}, 5000);
+                            }
+                        </script>
+                    </div>
+                    <div class="col-4">
+                            <a href="https://www.hortiplan.com/nl" target="_blank"><img src="./Used Pictures/Sponsors/2010 Logo Hortiplan tuinbouwautomatisering (3).jpg" width="80%"></a>
+                        <!-- <p>Hortiplan</p> -->
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col-4">
+                            <a href="http://www.induver.be/" target="_blank"><img src="./Used Pictures/Sponsors/induver_alt_q_c_digital_pos.jpg" width="80%" height="40%"></a>
+                        <!-- <p>Induver</p> -->
+                    </div>
+                    <div class="col-4">
+                            <a href="https://ipsam.com/" target="_blank"><img src="./Used Pictures/Sponsors/1_PositiveIpsam.jpg" width="80%" height="40%"></a>
+                        <!-- <p>Ipsam</p> -->
+                    </div>
+                    <div class="col-4">
+                        <a href="http://www.kenf.be/" target="_blank"><img src="./Used Pictures/Sponsors/logo K&F bruikbaar def.jpg" width="80%" height="40%"></a>
+                        <!-- <p>K & F Electrotechniek</p> -->
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col-4">
+                            <a href="http://www.vervoer-luypaert.be/" target="_blank"><img src="./Used Pictures/Sponsors/logoluypaert2.jpg" width="80%" height="40%"></a>
+                        <!-- <p>Luypaert</p> -->
+                    </div>
+                    <div class="col-4">
+                        <a href="http://www.nexiosit.com/" target="_blank"><img src="./Used Pictures/Sponsors/NXS-consultancy NIEUW[2214].JPG" width="80%" height="40%"></a>
+                        <!-- <p>Nexios</p> -->
+                    </div>
+                    <div class="col-4">
+                            <a href="https://cheers.rodenbach.be/" target="_blank"><img src="./Used Pictures/Sponsors/ROD_P_Base_Quadri_preview.jpg" width="80%" height="40%"></a>
+                        <!-- <p>RodenBach</p> -->
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col-4">
+                            <a href="https://www.saint-gobain.com/en" target="_blank"><img src="./Used Pictures/Sponsors/logo SG RVB.JPG" width="80%" height="40%"></a>
+                        <!-- <p>Saint-Gobain</p> -->
+                    </div>
+                    <div class="col-4">
+                            <a href="https://www.vanroey.be/" target="_blank"><img src="./Used Pictures/Sponsors/image001.jpg" width="80%" height="40%"></a>
+                        <!-- <p>Van Roey</p> -->
+                    </div>
+                    <div class="col-4">
+                            <a href="http://www.weekx.be/" target="_blank"><img src="./Used Pictures/Sponsors/logoWeekx.PNG" width="80%" height="40%"></a>
+                        <!-- <p>Weekx</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div id="Foto5" class="foto5"></div>
+        <div id="vraagje">
+                <h2 style="padding-top: 80px" class="titel">Stel een vraag:</h2>
+                
+                <p>Gelieve eerst een onderwerp te selecteren in verband met uw vraag. (Activiteiten, sponsoring, planning, etc).</p>
+                
+                <form method="POST" action style="width:100%; margin-left: 30%; margin-right: 30%;">
+                    <h4>Onderwerp:<span id="chSubj">*</span></h4>
+                    <select class="vraag" id="subj" value="Selecteer" style="width:100px;">
+                        <option hidden style="color:lightgray">Selecteer</option>
+                        <option style="user-select:none">Activiteiten</option>
+                        <option>Sponsoring</option>
+                        <option>Planning</option>
+                        <option>Andere</option>
+                    </select>
+
+                    <h4 style="margin-top:5%;">Naam:<span id="chName">*</span></h4>
+                    <input type="text" maxlength="20" class="vraag" id="name" required placeholder="Naam" autocomplete="family-name" title="Vul hier uw achternaam in.">
+                    
+                    <h4>Voornaam:<span id="chVname">*</span></h4>
+                    <input type="text" class="vraag" id="Vname" required placeholder="Voornaam" autocomplete="given-name" title="Vul hier uw voornaam in.">
+                    
+                    <h4>E-mail adres:<span id="chMail">*</span></h4>
+                    <input type="email" class="vraag" id="mail" required placeholder="e-mail">
+
+                    <h4>Vraag:<span id="chText">*</span></h4>
+                    <textarea autocomplete="off" maxlength="280" id="Text" style=" margin-bottom:20px; width: 40ch; height: 15ch; border:rgba(100, 100, 100, 0.7) solid 4px; border-radius: 3px; resize: none;"></textarea>
+                </form>
+                <h3 onclick="checkAntwoord()" style="user-select: none; cursor: pointer; position:relative; left: 60%; text-align: center; color: white; padding: 3px; width: 80px; border-radius: 13px; background-color: #e5b61f">Volgende</h3>
+                
+            </div>            
+        </div>>
+                
+                
+        
+        <!--REST VAN WEBSITE-->
+        <footer>
+            <div class="row">
+                    <p>Contact:</p>
+                <div class="col-6">
+                    
+                    <p><span class="phoneIcon"><i class="fa fa-phone"></i></span><a href="tel:+32473182297">Bel: +32 473 18 22 97</a></p>
+                    <p><span class="enveIcon"><i class="fa fa-envelope"></i></span><a href="mailto:kevin-davis@hotmail.com">Mail:  kevin-davis@hotmail.com</a></p>
+                </div>
+                <div class="col-6">
+                    <p><span class="instaIcon"><i class="fa fa-instagram"></i></span><a target="_blank" href="https://www.instagram.com/undecimig/">Instagram: UNDECIMig</a></p>
+                </div>
+            </div>
+        </footer>
+        
+    
+
+    
+    
+</body>
+<!-- <img src="/Used Pictures/test 9.jpg" style="width: 100px; position: relative;; transition: ease " id="foto"> -->
+<script src="script1.js"></script>                                              <!--Alleen voor mobiele versie-->
+<script src="script2.js"></script>
+<script src="script3.js"></script> 
+</html>

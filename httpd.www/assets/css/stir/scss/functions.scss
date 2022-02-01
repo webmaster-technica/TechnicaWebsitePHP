@@ -1,0 +1,65 @@
+@function in-list($needle, $haystack) {
+    @each $item in $haystack {
+        @if $item == $needle {
+            @return true;
+        }
+    }
+
+    @return false;
+}
+
+@function map-nth($map, $target) {
+    $ctr: 0;
+
+    @each $key, $item in $map {
+        @if $ctr == $target {
+            @return $item;
+        }
+
+        $ctr: $ctr + 1;
+    }
+
+    @return null;
+}
+
+@function sort-map($map, $asc: true) {
+    $smaller: ();
+    $equal: ();
+    $larger: ();
+
+    @if length($map) > 1 {
+        $center: map-nth($map, ceil(length($breakPoints) / 2));
+
+        @each $key, $item in $map {
+            @if($item < $center) {
+                $smaller: map_merge($smaller, ($key: $item));
+            } @elseif($item > $center) {
+                $larger: map_merge($larger, ($key: $item));
+            } @else {
+                $equal: map_merge($equal, ($key: $item));
+            }
+        }
+
+        @if $asc {
+            @return map_merge(map_merge(sort-map($larger, $asc), $equal), sort-map($smaller, $asc));
+        }
+
+        @return map_merge(map_merge(sort-map($smaller, $asc), $equal), sort-map($larger, $asc));
+    }
+
+    @return $map;
+}
+
+@function map-after($map, $targetkey) {
+    $found: false;
+
+    @each $key, $item in $map {
+        @if $found {
+            @return $item;
+        } @elseif $key == $targetkey {
+            $found: true;
+        }
+    }
+
+    @return null;
+}

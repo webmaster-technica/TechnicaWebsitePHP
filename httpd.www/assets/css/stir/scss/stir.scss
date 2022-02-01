@@ -1,0 +1,212 @@
+/*
+ *  STIR v0.4
+ *
+ *  Copyright under MIT license
+ *  Author: Rick van Zee
+ *  Website: https://rickvanzee.nl
+ */
+
+//  Changed normalize to scss so that it can be directly included into stir without having the @import directive
+// TODO: Manier vinden dit te fixen :( @if $useNormalize {
+    @import '../normalize/normalize';
+// }
+@import 'variables';
+@import 'functions';
+@import 'mixins';
+
+/*
+ *  Validation
+ */
+
+
+
+/*
+ *  Fixing data
+ */
+
+@if in-list($defaultColumnPadding, $columnPaddings) == false {
+    $columnPaddings: append($columnPaddings, $defaultColumnPadding);
+}
+
+/*
+ *  Parsing
+ */
+
+html, body {
+    margin: 0;
+    line-height: 1;
+    min-height: 100%;
+}
+
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: $maxContainerWidth;
+    overflow: hidden;
+    padding-left: $defaultColumnPadding;
+    padding-right: $defaultColumnPadding;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@each $columnPadding in $columnPaddings {
+    // TODO: unitless maken, hoeft niet perse 1px te zijn
+    .container#{$columnPadding / 1px} {
+        @extend .container;
+        padding: 0 $columnPadding;
+    }
+}
+
+//  TODO: losse classes selector
+[class^="col-"] {
+    float: left;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding-left: $defaultColumnPadding;
+    padding-right: $defaultColumnPadding;
+}
+
+@include columns($maxColumns, '');
+
+%grid {
+    overflow: hidden;
+}
+
+.grid, .h-list {
+    @extend %grid;
+}
+
+.grid > [class^="col"] {
+    padding: 0 $defaultColumnPadding;
+}
+
+@each $columnPadding in $columnPaddings {
+    .grid#{$columnPadding / 1px} {
+        @extend %grid;
+    }
+    .h-list#{$columnPadding / 1px} {
+        @extend %grid;
+    }
+
+    // TODO: Unitless maken
+    .grid#{$columnPadding / 1px} {
+        margin: 0 -#{$columnPadding};
+
+        > [class^="col"] {
+            padding: 0 $columnPadding;
+        }
+    }
+
+    .h-list#{$columnPadding / 1px} {
+        > * {
+            padding-left: $columnPadding;
+            padding-right: $columnPadding;
+        }
+    }
+
+    @if $columnPadding == $defaultColumnPadding {
+        .grid {
+            @extend .grid#{$columnPadding / 1px};
+        }
+        .h-list {
+            @extend .h-list#{$columnPadding / 1px};
+        }
+    }
+}
+
+input[type="submit"], input[type="button"], button, .btn {
+    -webkit-appearance: none;
+    border-radius: 0;
+    display: inline-block;
+}
+
+%noMarginTop {
+    margin-top: 0;
+}
+
+%noMarginBottom {
+    margin-bottom: 0;
+}
+
+@each $tag in h1, h2, h3, h4, h5, h6, p, span, strong, ul, ol, hr, del, ins, table, sub, sup {
+    .textual > #{$tag}:first-child {
+        @extend %noMarginTop;
+    }
+    .textual > #{$tag}:last-child {
+        @extend %noMarginBottom;
+    }
+}
+
+.bg-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.block {
+    padding: $blockPadding 0;
+}
+
+
+
+/*
+ *  TODO: Dingetjes
+ *  bg
+ *  overlay
+ *  btn
+ *  btn-bar
+ *  --media queries
+ *  abs-center
+ *  il-center
+ */
+
+@each $key, $breakPoint in $breakPoints {
+    $nextValue: map-after($breakPoints, $key);
+
+    @if map-nth($breakPoints, 0) == $breakPoint and $maxContainerWidth > $breakPoint and $containerJumps {
+        // TODO: Tussenruimte berekenen breakpoint en maxcontainerwidth en rekening houden met scrollbarWidth
+        // Bijv: 1090 > 1080 moet worden: 1097 > 1080
+        @media screen and (max-width: $maxContainerWidth + $scrollBarWidth) and (min-width: $breakPoint + $scrollBarWidth + 1px) {
+            .container {
+                max-width: $breakPoint;
+            }
+        }
+    }
+
+    @if $nextValue != null {
+        @media screen and (max-width: $breakPoint + $scrollBarWidth) and (min-width: $nextValue + $scrollBarWidth + 1px) {
+            @if $containerJumps {
+                .container {
+                    max-width: $nextValue;
+                }
+            }
+        }
+        @media screen and (max-width: $breakPoint + $scrollBarWidth) {
+            @include columns($maxColumns, $key);
+        }
+    } @else {
+        @media screen and (max-width: $breakPoint + $scrollBarWidth) {
+            @if $containerJumps {
+                .container {
+                    max-width: $nextValue;
+                }
+            }
+            @include columns($maxColumns, $key);
+        }
+    }
+}
