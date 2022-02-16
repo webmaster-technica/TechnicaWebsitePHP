@@ -31,6 +31,13 @@
                 </div>
             </div>
 
+            <div class="col-3 mcol-2 scol-1">           <!--Pidpa-->
+                <div class="sponsor">
+                    <a href="<?php echo base_url(); ?>partners/pidpa"><img src="<?php echo base_url(); ?>assets/images/sponsors/pidpa.png" /></a>
+                    <a class="sponsor-read-more" href="<?php echo base_url(); ?>partners/pidpa">Lees meer</a>
+                </div>
+            </div>
+
             <div class="col-3 mcol-2 scol-1">           <!--Chipsoft-->
                 <div class="sponsor">
                     <a href="<?php echo base_url(); ?>partners/chipsoft"><img src="<?php echo base_url(); ?>assets/images/sponsors/chipsoft.png" /></a>
@@ -161,14 +168,6 @@
                     <a class="sponsor-read-more" href="<?php echo base_url(); ?>partners/denisdp">Lees meer</a>
                 </div>
             </div>
-
-            <div class="col-3 mcol-2 scol-1">           <!--Sweco-->
-                <div class="sponsor">
-                    <a href="<?php echo base_url(); ?>partners/sweco"><img src="<?php echo base_url(); ?>assets/images/sponsors/sweco.png" /></a>
-                    <a class="sponsor-read-more" href="<?php echo base_url(); ?>partners/sweco">Lees meer</a>
-                </div>
-            </div>
-            
         </div>
     </div>
 </div>
@@ -246,18 +245,17 @@
                 </div>
             </div>
 
-
-            <div class="col-3 mcol-2 scol-1">           Pidpa
-                <div class="sponsor">
-                    <a href="<?php echo base_url(); ?>partners/pidpa"><img src="<?php echo base_url(); ?>assets/images/sponsors/pidpa.png" /></a>
-                    <a class="sponsor-read-more" href="<?php echo base_url(); ?>partners/pidpa">Lees meer</a>
-                </div>
-            </div>
-
             <div class="col-3 mcol-2 scol-1">       Spoc-Recruitment
                 <div class="sponsor">
                     <a href="<?php echo base_url(); ?>partners/spocrecruitment"><img src="<?php echo base_url(); ?>assets/images/sponsors/spoc.jpg" /></a>
                     <a class="sponsor-read-more" href="<?php echo base_url(); ?>partners/spocrecruitment">Lees meer</a>
+                </div>
+            </div>
+
+            <div class="col-3 mcol-2 scol-1">       Sweco
+                <div class="sponsor">
+                    <a href="<?php echo base_url(); ?>partners/sweco"><img src="<?php echo base_url(); ?>assets/images/sponsors/sweco.jpg" /></a>
+                    <a class="sponsor-read-more" href="<?php echo base_url(); ?>partners/sweco">Lees meer</a>
                 </div>
             </div>
 

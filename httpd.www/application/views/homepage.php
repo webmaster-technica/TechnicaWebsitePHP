@@ -25,7 +25,7 @@
         <div class="grid">
             <div class="col-2 mcol-1">
                 <ul>
-                    <li>Studay 2021</li>
+                    <li>Studay</li>
                     <li>Cantussen</li>
                     <li>Doop</li>
                     <li>ASL-competitie</li>

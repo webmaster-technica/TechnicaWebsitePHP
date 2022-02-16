@@ -34,6 +34,7 @@
             </div>
             <div class="col-23 mcol-1 textual">
                 <h2 class="h1">Denis Engine Services & Parts</h2>
+                <p>
                     Denis Diesel Services & parts is een Antwerps bedrijf, dat op 2 vlakken actief is;
                     namelijk het leveren van spare parts voor dieselmotoren, en het uitvoeren van revisies aan boord van schepen.<br>
                     We hebben een volledig uitgerustewerkplaats en magazijn gelegen te Schoten, 
@@ -42,6 +43,7 @@
                     We zijn een klein familiebedrijf, waarin veel vrijheid is voor eigen inbreng en waar je heel persoonlijk begeleid wordt.
                     Wij staan open om alle mogelijkheden voor stages/vaste betrekking te bekijken van harte welkom en tot snel!<br>
                     Het DDS&P Team
+                </p>
             </div>
         </div>
     </div>
