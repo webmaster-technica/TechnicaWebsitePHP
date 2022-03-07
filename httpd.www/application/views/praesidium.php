@@ -65,6 +65,25 @@
 
 
         <div class="grid">
+            <!--                                                     CANTOR                                                 -->
+            <div class="col-3 mcol-1">
+                <div class="person-wrap">
+                    <div class="person-image">
+                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Axel_Degrande(1).jpg" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Axel_Degrande_Zot.jpg" />
+                        <a href="https://www.linkedin.com/in/axel-degrande-2119601a7/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="person-details">
+                        <h3>Axel Degrande</h3>
+                        <h4><span>Cantor</span> - Industrieel Ingenieur, UA</h4>
+                        <i class="fa fa-glass"></i> Stella op koelkasttemperatuur
+                        <p>Technica goes brrrrrr</p>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <a href="mailto:cantor@technica-antwerpen.be">cantor@technica-antwerpen.be</a>
+                    </div>
+                </div>
+            </div>
+
             <!--                                                    AB-ACTIS                                                 -->
             <div class="col-3 mcol-1">
                 <div class="person-wrap">
@@ -102,7 +121,11 @@
                     </div>
                 </div>
             </div>
-            
+        </div>
+
+
+
+        <div class="grid">
             <!--                                                    SCHACHTENTEMMER                                                 -->
             <div class="col-3 mcol-1">
                 <div class="person-wrap">
@@ -121,11 +144,7 @@
                     </div>
                 </div>
             </div>
-        </div>
 
-
-
-        <div class="grid">
             <!--                                                    ZEDENMEESTER                                                 -->
             <div class="col-3 mcol-1">
                 <div class="person-wrap">
@@ -144,41 +163,22 @@
                     </div>
                 </div>
             </div>
-            
-            <!--                                                    REDACTOR                                                 -->
-            <div class="col-3 mcol-1">
-                <div class="person-wrap">
-                    <div class="person-image">
-                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Jessi_Snelders(1).jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Jessi_Snelders_Zot.jpg" />
-                        <a href="https://www.linkedin.com/in/jessi-snelders-9a3812209/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                    </div>
-                    <div class="person-details">
-                        <h3>Jessi Snelders</h3>
-                        <h4><span>Redactor</span> - Rechtspraktijk, AP</h4>
-                        <i class="fa fa-glass"></i>Chouffe
-                        <p>Ge kunt beter spijt hebben van iets dat je gedaan hebt dan spijt hebben van iets wat je niet gedaan hebt</p>
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <a href="mailto:redactor@technica-antwerpen.be">redactor@technica-antwerpen.be</a>
-                    </div>
-                </div>
-            </div>
 
-            <!--                                                     CANTOR                                                 -->
+            <!--                                                    FEEST                                                 -->
             <div class="col-3 mcol-1">
                 <div class="person-wrap">
                     <div class="person-image">
-                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Axel_Degrande(1).jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Axel_Degrande_Zot.jpg" />
-                        <a href="https://www.linkedin.com/in/axel-degrande-2119601a7/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Robbe_De_Kam(1).jpg" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Robbe_De_Kam_Zot.jpg" />
+                        <a href="https://www.linkedin.com/in/robbe-de-kam-6859b91ba/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                     </div>
                     <div class="person-details">
-                        <h3>Axel Degrande</h3>
-                        <h4><span>Cantor</span> - Industrieel Ingenieur, UA</h4>
-                        <i class="fa fa-glass"></i> Stella op koelkasttemperatuur
-                        <p>Technica goes brrrrrr</p>
+                        <h3>Robbe De Kam</h3>
+                        <h4><span>Feest</span> - Elektromechanica, AP</h4>
+                        <i class="fa fa-glass"></i> Smeets cactus jenever
+                        <p>Half dronken is ook maar zonde van je geld!</p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <a href="mailto:cantor@technica-antwerpen.be">cantor@technica-antwerpen.be</a>
+                        <a href="mailto:feest@technica-antwerpen.be">feest@technica-antwerpen.be</a>
                     </div>
                 </div>
             </div>
@@ -186,7 +186,26 @@
 
 
 
-        <div class="grid">
+        <div class="grid">          
+            <!--                                                    FEEST                                                 -->
+            <div class="col-3 mcol-1">
+                <div class="person-wrap">
+                    <div class="person-image">
+                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Matthias_Tribout(1).jpg" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Matthias_Tribout_Zot.jpg" />
+                        <a href="https://www.linkedin.com/in/matthias-tribout-0baaa2214" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="person-details">
+                        <h3>Matthias Tribout</h3>
+                        <h4><span>Feest</span> - Integrale veiligheid, AP</h4>
+                        <i class="fa fa-glass"></i> La Chouffe
+                        <p>Hard gaan of niet gaan</p>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <a href="mailto:feest@technica-antwerpen.be">feest@technica-antwerpen.be</a>
+                    </div>
+                </div>
+            </div>
+
             <!--                                                    SOC                                                 -->
             <div class="col-3 mcol-1">
                 <div class="person-wrap">
@@ -224,49 +243,11 @@
                     </div>
                 </div>
             </div>
-
-            <!--                                                    FEEST                                                 -->
-            <div class="col-3 mcol-1">
-                <div class="person-wrap">
-                    <div class="person-image">
-                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Robbe_De_Kam(1).jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Robbe_De_Kam_Zot.jpg" />
-                        <a href="https://www.linkedin.com/in/robbe-de-kam-6859b91ba/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                    </div>
-                    <div class="person-details">
-                        <h3>Robbe De Kam</h3>
-                        <h4><span>Feest</span> - Elektromechanica, AP</h4>
-                        <i class="fa fa-glass"></i> Smeets cactus jenever
-                        <p>Half dronken is ook maar zonde van je geld!</p>
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <a href="mailto:feest@technica-antwerpen.be">feest@technica-antwerpen.be</a>
-                    </div>
-                </div>
-            </div>
         </div>
 
 
 
         <div class="grid">
-            <!--                                                    FEEST                                                 -->
-            <div class="col-3 mcol-1">
-                <div class="person-wrap">
-                    <div class="person-image">
-                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Matthias_Tribout(1).jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Matthias_Tribout_Zot.jpg" />
-                        <a href="https://www.linkedin.com/in/matthias-tribout-0baaa2214" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                    </div>
-                    <div class="person-details">
-                        <h3>Matthias Tribout</h3>
-                        <h4><span>Feest</span> - Integrale veiligheid, AP</h4>
-                        <i class="fa fa-glass"></i> La Chouffe
-                        <p>Hard gaan of niet gaan</p>
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <a href="mailto:feest@technica-antwerpen.be">feest@technica-antwerpen.be</a>
-                    </div>
-                </div>
-            </div>
-
             <!--                                                    PR                                                 -->
             <div class="col-3 mcol-1">
                 <div class="person-wrap">
@@ -301,6 +282,25 @@
                         <p>Drinken is drinken. Zuipen is kruipen!</p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                         <a href="mailto:pr@technica-antwerpen.be">pr@technica-antwerpen.be</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--                                                    REDACTOR                                                 -->
+            <div class="col-3 mcol-1">
+                <div class="person-wrap">
+                    <div class="person-image">
+                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Jessi_Snelders(1).jpg" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Jessi_Snelders_Zot.jpg" />
+                        <a href="https://www.linkedin.com/in/jessi-snelders-9a3812209/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="person-details">
+                        <h3>Jessi Snelders</h3>
+                        <h4><span>Redactor</span> - Rechtspraktijk, AP</h4>
+                        <i class="fa fa-glass"></i>Chouffe
+                        <p>Ge kunt beter spijt hebben van iets dat je gedaan hebt dan spijt hebben van iets wat je niet gedaan hebt</p>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <a href="mailto:redactor@technica-antwerpen.be">redactor@technica-antwerpen.be</a>
                     </div>
                 </div>
             </div>
@@ -369,23 +369,6 @@
 
 
         <div class="grid">
-            <!--                                                    PETER                                                -->
-            <div class="col-3 mcol-1">
-                <div class="person-wrap">
-                    <div class="person-image">
-                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Bjorn_Brusten.jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Bjorn_Brusten.jpg" />
-                        <a href="https://www.linkedin.com/in/bj%C3%B6rn-brusten-1b6095191/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                    </div>
-                    <div class="person-details">
-                        <h3>Bjorn Brusten</h3>
-                        <h4><span>Peter</span> - Energiemanagement, AP</h4>
-                        <i class="fa fa-glass"></i> Rougeke
-                        <p style="padding-bottom: 19px;">Het leven is geen ponykamp, maar van waar komen al die paardenwijven.</p>
-                    </div>
-                </div>
-            </div>
-
             <!--                                                    METER                                                 -->
             <div class="col-3 mcol-1">
                 <div class="person-wrap">
@@ -416,6 +399,23 @@
                         <h4><span>Meter</span> - Orthopedagogie, KDG</h4>
                         <i class="fa fa-glass"></i> Raketje
                         <p style="padding-bottom: 19px;"></p>
+                    </div>
+                </div>
+            </div>
+            
+            <!--                                                    PETER                                                -->
+            <div class="col-3 mcol-1">
+                <div class="person-wrap">
+                    <div class="person-image">
+                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Bjorn_Brusten.jpg" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Bjorn_Brusten.jpg" />
+                        <a href="https://www.linkedin.com/in/bj%C3%B6rn-brusten-1b6095191/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="person-details">
+                        <h3>Bjorn Brusten</h3>
+                        <h4><span>Peter</span> - Projectmanagemer, DSG Belgium</h4>
+                        <i class="fa fa-glass"></i> Rougeke
+                        <p style="padding-bottom: 19px;">Het leven is geen ponykamp, maar van waar komen al die paardenwijven.</p>
                     </div>
                 </div>
             </div>

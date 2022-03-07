@@ -27,7 +27,7 @@
                     <div class="table-cell selectable">
                         <i class="fa fa-phone" aria-hidden="true"></i>
                         <p>
-                            <a href="tel:+32473182297">+32 (0)485 50 12 97</a>
+                            <a href="tel:+32485501297">+32 (0)485 50 12 97</a>
                         </p>
                     </div>
                     <div class="table-cell selectable">
