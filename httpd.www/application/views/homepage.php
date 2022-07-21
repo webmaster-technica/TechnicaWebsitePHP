@@ -46,7 +46,7 @@
     </div>
 </div>
 <!--    Truien    -->
-<div class="block truien">
+<!-- <div class="block truien">
     <div class="container textual">
         <h2 class="h1 center">Technica Truien</h2>
         <div class="grid">
@@ -63,29 +63,29 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!--    Hoogpreasidium    -->
 <div class="block onsteam">
     <div class="container textual shield-container">
         <h2 class="h1 center">Ontmoet het <span>Praesidium</span></h2>
         <div class="grid0">
             <!--<div class="col-27 medium-shield shield-image">
-                <img class="avatar" src="<?php echo base_url(); ?>assets/images/wim_van_den_kieboom_schild.jpg" />
+                <img class="avatar" src="<?php echo base_url(); ?>assets/images/.jpg" />
                 <img class="shield-overlay" src="<?php echo base_url(); ?>assets/images/shield-overlay.png" />
             </div>
             <div class="col-37 big-shield-image shield-image">
-                <img class="avatar" src="<?php echo base_url(); ?>assets/images/tim_arts_schild.jpg" />
+                <img class="avatar" src="<?php echo base_url(); ?>assets/images/.jpg" />
                 <img class="shield-overlay" src="<?php echo base_url(); ?>assets/images/shield-overlay.png" />
             </div>
             <div class="col-27 medium-shield shield-image">
-                <img class="avatar" src="<?php echo base_url(); ?>assets/images/evi_claes_schild.jpg" />
+                <img class="avatar" src="<?php echo base_url(); ?>assets/images/.jpg" />
                 <img class="shield-overlay" src="<?php echo base_url(); ?>assets/images/shield-overlay.png" />
             </div>-->
             <figure class="block icon-cards" style="margin-top:10%">
                 <div class="icon-cards__content">
-                    <div class="icon-cards__item"><img src="<?php echo base_url(); ?>assets/images/praesidium/Bjorn_Jongenelen(1).jpg"/></div>  <!--PRAESES-->
-                    <div class="icon-cards__item"><img src="<?php echo base_url(); ?>assets/images/praesidium/Siebe_Perdieus(1).jpg"/></div>    <!--VICE-PRAESES-->
-                    <div class="icon-cards__item"><img src="<?php echo base_url(); ?>assets/images/praesidium/Oceane_De_Clercq(1).jpg"/></div>  <!--QUAESTOR-->
+                    <div class="icon-cards__item"><img src="<?php echo base_url(); ?>assets/images/praesidium/Siebe_Perdieus.jpg"/></div>  <!--PRAESES-->
+                    <div class="icon-cards__item"><img src="<?php echo base_url(); ?>assets/images/praesidium/Siebe_Keppers.jpg"/></div>    <!--VICE-PRAESES-->
+                    <div class="icon-cards__item"><img src="<?php echo base_url(); ?>assets/images/praesidium/Stef_Van_Loock.jpg"/></div>  <!--QUAESTOR-->
                 </div>
             </figure>
         </div>
