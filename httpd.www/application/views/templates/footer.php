@@ -51,6 +51,8 @@
                     <div class="col-3 mcol-1 textual">
                         <h3>Facebook</h3>
                         <div class="fb-page" data-href="https://www.facebook.com/StudentenverenigingTechnica/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/StudentenverenigingTechnica/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/StudentenverenigingTechnica/">Technica</a></blockquote></div>
+                        <h3>Statuten</h3>
+                        <div data-href="http://www.ejustice.just.fgov.be/tsv_pdf/2019/08/07/19329540.pdf" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="http://www.ejustice.just.fgov.be/tsv_pdf/2019/08/07/19329540.pdf" class="fb-xfbml-parse-ignore"><a href="http://www.ejustice.just.fgov.be/tsv_pdf/2019/08/07/19329540.pdf">Statuten</a></blockquote></div>
                     </div>
                 </div>
             </div>

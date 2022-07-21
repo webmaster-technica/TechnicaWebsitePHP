@@ -260,7 +260,7 @@
                         <h3>Rik Geenen</h3>
                         <h4><span>S.O.C.</span> - Elektromechanica, AP</h4>
                         <i class="fa fa-glass"></i>Karmeliet
-                        <p>No matter how bad life gets, there’s always beer.</p>
+                        <p>No matter how bad life gets, thereï¿½s always beer.</p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                         <a href="mailto:soc@technica-antwerpen.be">soc@technica-antwerpen.be</a>
                     </div>
@@ -279,7 +279,7 @@
                         <h3>Senne Vanhoucke</h3>
                         <h4><span>P.R.</span> - Elektromechanica, AP</h4>
                         <i class="fa fa-glass"></i> Duvel
-                        <!-- <p> Comment </p> -->
+                        <p></p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                         <a href="mailto:pr@technica-antwerpen.be">pr@technica-antwerpen.be</a>
                     </div>
@@ -332,7 +332,7 @@
             <div class="col-3 mcol-1" id="weekie">
                 <div class="person-wrap">
                     <div class="person-image">
-                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Thomas_Kramp(1).jpg" />
+                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Thomas_Kramp.jpg" />
                         <img class="image-zot" src="<?php echo base_url(); ?>/assets/images/praesidium/Thomas_Kramp_Zot.jpg" />
                         <a href="https://www.linkedin.com/in/thomas-kramp-0bb52220a/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                     </div>
@@ -436,8 +436,8 @@
                     <div class="person-details">
                         <h3>Yannis De Maeyer</h3> 
                         <h4><span>Ere-Lid</span> - </h4>
-                        <!-- <i class="fa fa-glass"></i> -->
-                        <!-- <p style="padding-bottom: 19px;"></p> -->
+                        <i class="fa fa-glass"></i>
+                        <p style="padding-bottom: 19px;"></p>
                     </div>
                 </div>
             </div>
