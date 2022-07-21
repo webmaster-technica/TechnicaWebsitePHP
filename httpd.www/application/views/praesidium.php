@@ -339,7 +339,7 @@
                     <div class="person-details">
                         <h3>Thomas Kramp</h3>
                         <h4><span>Webmaster</span> - Ingenieur Elektronica-ICT, UA</h4>
-                        <i class="fa fa-glass"></i> Cola
+                        <i class="fa fa-glass"></i> De orginele sprite
                         <p>Oeh ne kramp, k'heb gehoord dat dat lastige dingen zijn he</p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                         <a href="mailto:webmaster@technica-antwerpen.be">webmaster@technica-antwerpen.be</a>
