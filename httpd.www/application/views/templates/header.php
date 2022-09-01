@@ -89,6 +89,7 @@
                     <div class="col-34">
                         <h1>TECHNICA,<br />De faculteitsvereniging in Antwerpen</h1>
                         <p>Elektromechanica, Integrale veiligheid, Energiemanagement en Elektronica-ICT</p>
+                        <p>Elektromechanische systemen, HVAC-Systemen-Klimatiesatiesystemen, Werforganisatie en Internet of Things</p>
                     </div>
                     <div class="col-4"></div>
                 </div>

@@ -15,7 +15,7 @@
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-phone fa-stack-1x"></i>
                     </span>
-                    <span class="sponsor-contact-txt">+32 9 328 83 66</span>
+                    <span class="sponsor-contact-txt"><a href="tel:+32 9 328 83 66">+32 9 328 83 66</a></span>
                 </div>
                 <div class="sponsor-contact">
                     <span class="fa-stack fa-lg">

@@ -2,7 +2,7 @@
     <div class="container">
         <div class="grid">
             <div class="col-3 mcol-1">
-                <img src="<?php echo base_url(); ?>assets/images/sponsors/engie.jpg" />
+                <img src="<?php echo base_url(); ?>assets/images/sponsors/engie.png" />
                 <div class="sponsor-contact">
                     <span class="fa-stack fa-lg">
                         <i class="fa fa-circle fa-stack-2x"></i>

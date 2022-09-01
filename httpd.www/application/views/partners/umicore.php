@@ -2,20 +2,13 @@
     <div class="container">
         <div class="grid">
             <div class="col-3 mcol-1">
-                <img src="<?php echo base_url(); ?>assets/images/sponsors/umicore.jpg" />
+                <img src="<?php echo base_url(); ?>assets/images/sponsors/umicore.png" />
                 <div class="sponsor-contact">
                     <span class="fa-stack fa-lg">
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-envelope-o fa-stack-1x"></i>
                     </span>
                     <span class="sponsor-contact-txt">Via contactformulier</span>
-                </div>
-                <div class="sponsor-contact">
-                    <span class="fa-stack fa-lg">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-phone fa-stack-1x"></i>
-                    </span>
-                    <span class="sponsor-contact-txt">Via contactforumlier</span>
                 </div>
                 <div class="sponsor-contact">
                     <span class="fa-stack fa-lg">

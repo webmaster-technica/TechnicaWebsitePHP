@@ -12,7 +12,7 @@
             culturele activiteit zijn we niet vies. Toch draait het hier niet alleen om! 
             <br><br>De vorige generaties 
             Technicanen hebben een mooie database opgebouwd met samenvattingen, oefeningen en proefexamens. De juiste balans 
-            vinden tussen het plezier maken en studeren, is iets waar wij je dan ook zeer graag bij willen helpen. Ik zie reeds
+            vinden tussen het plezier maken en studeren, is iets waar wij je dan ook zeer graag bij willen helpen. Ik kijk reeds
             uit naar het komende academiejaar, hopelijk jij ook!
         </p>
     </div>

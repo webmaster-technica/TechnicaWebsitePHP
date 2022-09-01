@@ -15,7 +15,7 @@ class Partners extends CI_Controller {                  //VERANDEREN WANNEER SPO
 
         //  #
         public function _3_it(){
-            $data['pageTitle'] = "Partner 3-it";
+            $data['pageTitle'] = "3-it";
             $data['picture'] = "";
             
             $this->load->view('templates/header', $data);
@@ -34,12 +34,30 @@ class Partners extends CI_Controller {                  //VERANDEREN WANNEER SPO
 
 
         //  A
+        public function aertssen_group(){
+            $data['pageTitle'] = "Aertssen Group";
+            $data['picture'] = "";
+            
+            $this->load->view('templates/header', $data);
+            $this->load->view('partners/aertssen_group');
+            $this->load->view('templates/footer');
+        }
+
         public function air_liquide(){
             $data['pageTitle'] = "Air Liquide";
             $data['picture'] = "";
             
             $this->load->view('templates/header', $data);
             $this->load->view('partners/air_liquide');
+            $this->load->view('templates/footer');
+        }
+
+        public function ats_groep(){
+            $data['pageTitle'] = "ATS Groep";
+            $data['picture'] = "";
+            
+            $this->load->view('templates/header', $data);
+            $this->load->view('partners/ats_groep');
             $this->load->view('templates/footer');
         }
 
@@ -64,7 +82,7 @@ class Partners extends CI_Controller {                  //VERANDEREN WANNEER SPO
 
         // B
         public function barbier(){
-            $data['pageTitle'] = "Partner Café Barbier";
+            $data['pageTitle'] = "Café Barbier";
             $data['picture'] = "";
             
             $this->load->view('templates/header', $data);
@@ -73,16 +91,25 @@ class Partners extends CI_Controller {                  //VERANDEREN WANNEER SPO
         }
 
         public function basf(){
-            $data['pageTitle'] = "Partner BASF";
+            $data['pageTitle'] = "BASF";
             $data['picture'] = "";
             
             $this->load->view('templates/header', $data);
             $this->load->view('partners/basf');
             $this->load->view('templates/footer');
         }
+
+        public function botec_nv(){
+            $data['pageTitle'] = "Botec NV";
+            $data['picture'] = "";
+            
+            $this->load->view('templates/header', $data);
+            $this->load->view('partners/botec_nv');
+            $this->load->view('templates/footer');
+        }
         
         public function bracke_elektro(){
-            $data['pageTitle'] = "Partner Bracke elektro";
+            $data['pageTitle'] = "Bracke elektro";
             $data['picture'] = "";
             
             $this->load->view('templates/header', $data);
@@ -92,6 +119,15 @@ class Partners extends CI_Controller {                  //VERANDEREN WANNEER SPO
         
 
         //  C
+        public function carrefour(){
+            $data['pageTitle'] = "Carrefour";
+            $data['picture'] = "";
+            
+            $this->load->view('templates/header', $data);
+            $this->load->view('partners/carrefour');
+            $this->load->view('templates/footer');
+        }
+
         public function chipsoft(){
             $data['pageTitle'] = "Chipsoft";
             $data['picture'] = "";
@@ -122,7 +158,7 @@ class Partners extends CI_Controller {                  //VERANDEREN WANNEER SPO
         }
 
         public function de_3_snellen(){
-            $data['pageTitle'] = "Partner De 3 snellen";
+            $data['pageTitle'] = "De 3 snellen";
             $data['picture'] = "";
             
             $this->load->view('templates/header', $data);
@@ -130,12 +166,12 @@ class Partners extends CI_Controller {                  //VERANDEREN WANNEER SPO
             $this->load->view('templates/footer');
         }
         
-        public function denisdp(){
+        public function denis_engine(){
             $data['pageTitle'] = "Denis Engine Services & Parts";
             $data['picture'] = "";
             
             $this->load->view('templates/header', $data);
-            $this->load->view('partners/denisdp');
+            $this->load->view('partners/denis_engine');
             $this->load->view('templates/footer');
         }
 
@@ -163,6 +199,15 @@ class Partners extends CI_Controller {                  //VERANDEREN WANNEER SPO
             
             $this->load->view('templates/header', $data);
             $this->load->view('partners/devoteam');
+            $this->load->view('templates/footer');
+        }
+        
+        public function dosign(){
+            $data['pageTitle'] = "Dosign";
+            $data['picture'] = "";
+            
+            $this->load->view('templates/header', $data);
+            $this->load->view('partners/dosign');
             $this->load->view('templates/footer');
         }
 
@@ -207,7 +252,7 @@ class Partners extends CI_Controller {                  //VERANDEREN WANNEER SPO
 
         //  F
         public function fritkot_max(){
-            $data['pageTitle'] = "Partner Fritkot max";
+            $data['pageTitle'] = "Fritkot max";
             $data['picture'] = "";
             
             $this->load->view('templates/header', $data);
@@ -218,7 +263,7 @@ class Partners extends CI_Controller {                  //VERANDEREN WANNEER SPO
 
         //  H
         public function hr_impulse(){
-            $data['pageTitle'] = "Partner HR impulse";
+            $data['pageTitle'] = "HR impulse";
             $data['picture'] = "";
             
             $this->load->view('templates/header', $data);
@@ -239,12 +284,12 @@ class Partners extends CI_Controller {                  //VERANDEREN WANNEER SPO
 
 
         //  J
-        public function jdn(){
+        public function jan_de_nul(){
             $data['pageTitle'] = "Jan de Nul";
             $data['picture'] = "";
             
             $this->load->view('templates/header', $data);
-            $this->load->view('partners/jdn');
+            $this->load->view('partners/jan_de_nul');
             $this->load->view('templates/footer');
         }
 
@@ -299,7 +344,7 @@ class Partners extends CI_Controller {                  //VERANDEREN WANNEER SPO
         }
 
         public function pdm(){
-            $data['pageTitle'] = "Partner PDM";
+            $data['pageTitle'] = "PDM";
             $data['picture'] = "";
             
             $this->load->view('templates/header', $data);
@@ -335,7 +380,7 @@ class Partners extends CI_Controller {                  //VERANDEREN WANNEER SPO
         }
 
         public function process_automation_solutions(){
-            $data['pageTitle'] = "Partner Process automation solutions";
+            $data['pageTitle'] = "Process automation solutions";
             $data['picture'] = "";
             
             $this->load->view('templates/header', $data);
@@ -343,19 +388,19 @@ class Partners extends CI_Controller {                  //VERANDEREN WANNEER SPO
             $this->load->view('templates/footer');
         }
 
-        public function psa(){
-            $data['pageTitle'] = "Partner PSA Antwerp";
+        public function psa_antwerp(){
+            $data['pageTitle'] = "PSA Antwerp";
             $data['picture'] = "";
             
             $this->load->view('templates/header', $data);
-            $this->load->view('partners/psa');
+            $this->load->view('partners/psa_antwerp');
             $this->load->view('templates/footer');
         }
 
 
         //  R
         public function remotive(){
-            $data['pageTitle'] = "Partner Remotive";
+            $data['pageTitle'] = "Remotive";
             $data['picture'] = "";
             
             $this->load->view('templates/header', $data);
@@ -363,8 +408,17 @@ class Partners extends CI_Controller {                  //VERANDEREN WANNEER SPO
             $this->load->view('templates/footer');
         }
 
+        public function rent_solutions(){
+            $data['pageTitle'] = "Rent Solutions";
+            $data['picture'] = "";
+            
+            $this->load->view('templates/header', $data);
+            $this->load->view('partners/rent_solutions');
+            $this->load->view('templates/footer');
+        }
+
         public function reynaers_aluminium(){
-            $data['pageTitle'] = "Partner Reynaers aluminium";
+            $data['pageTitle'] = "Reynaers aluminium";
             $data['picture'] = "";
             
             $this->load->view('templates/header', $data);
@@ -384,7 +438,7 @@ class Partners extends CI_Controller {                  //VERANDEREN WANNEER SPO
         }
 
         public function spoc(){
-            $data['pageTitle'] = "Partner SPOC recruitment";
+            $data['pageTitle'] = "SPOC recruitment";
             $data['picture'] = "";
             
             $this->load->view('templates/header', $data);
@@ -392,12 +446,12 @@ class Partners extends CI_Controller {                  //VERANDEREN WANNEER SPO
             $this->load->view('templates/footer');
         }
 
-        public function star(){
-            $data['pageTitle'] = "Star";
+        public function star_power_people(){
+            $data['pageTitle'] = "Star Power People";
             $data['picture'] = "";
             
             $this->load->view('templates/header', $data);
-            $this->load->view('partners/star');
+            $this->load->view('partners/star_power_people');
             $this->load->view('templates/footer');
         }
 
@@ -411,7 +465,7 @@ class Partners extends CI_Controller {                  //VERANDEREN WANNEER SPO
         }
 
         public function sweco(){
-            $data['pageTitle'] = "Partner Sweco Belgium";
+            $data['pageTitle'] = "Sweco Belgium";
             $data['picture'] = "";
             
             $this->load->view('templates/header', $data);
@@ -422,7 +476,7 @@ class Partners extends CI_Controller {                  //VERANDEREN WANNEER SPO
 
         //  T
         public function talenco(){
-            $data['pageTitle'] = "Partner Talenco";
+            $data['pageTitle'] = "Talenco";
             $data['picture'] = "";
             
             $this->load->view('templates/header', $data);
@@ -439,8 +493,17 @@ class Partners extends CI_Controller {                  //VERANDEREN WANNEER SPO
             $this->load->view('templates/footer');
         }
 
+        public function tormans(){
+            $data['pageTitle'] = "Tormans";
+            $data['picture'] = "";
+            
+            $this->load->view('templates/header', $data);
+            $this->load->view('partners/tormans');
+            $this->load->view('templates/footer');
+        }
+
         public function trescal(){
-            $data['pageTitle'] = "Partner Trescal";
+            $data['pageTitle'] = "Trescal";
             $data['picture'] = "";
             
             $this->load->view('templates/header', $data);
@@ -451,7 +514,7 @@ class Partners extends CI_Controller {                  //VERANDEREN WANNEER SPO
 
         //  U
         public function umicore(){
-            $data['pageTitle'] = "Partner Umicore";
+            $data['pageTitle'] = "Umicore";
             $data['picture'] = "";
             
             $this->load->view('templates/header', $data);
@@ -479,6 +542,24 @@ class Partners extends CI_Controller {                  //VERANDEREN WANNEER SPO
             $this->load->view('templates/footer');
         }
 
+        public function vinci_energies(){
+            $data['pageTitle'] = "Vinci Energies";
+            $data['picture'] = "";
+            
+            $this->load->view('templates/header', $data);
+            $this->load->view('partners/vinci_energies');
+            $this->load->view('templates/footer');
+        }
+
+        public function volvo_cars(){
+            $data['pageTitle'] = "Volvo Cars";
+            $data['picture'] = "";
+            
+            $this->load->view('templates/header', $data);
+            $this->load->view('partners/volvo_cars');
+            $this->load->view('templates/footer');
+        }
+
 
         //  W
         public function weekx(){
@@ -491,7 +572,7 @@ class Partners extends CI_Controller {                  //VERANDEREN WANNEER SPO
         }
 
         public function whoohoo(){
-            $data['pageTitle'] = "Partner Whoohoo";
+            $data['pageTitle'] = "Whoohoo";
             $data['picture'] = "";
             
             $this->load->view('templates/header', $data);
@@ -511,7 +592,7 @@ class Partners extends CI_Controller {                  //VERANDEREN WANNEER SPO
 
         //  X
         public function xplore_group(){
-            $data['pageTitle'] = "XPLORE GROUP";
+            $data['pageTitle'] = "Xplore Group";
             $data['picture'] = "";
             
             $this->load->view('templates/header', $data);

@@ -339,7 +339,7 @@
                     <div class="person-details">
                         <h3>Thomas Kramp</h3>
                         <h4><span>Webmaster</span> - Ingenieur Elektronica-ICT, UA</h4>
-                        <i class="fa fa-glass"></i> De orginele sprite
+                        <i class="fa fa-glass"></i> De originele Sprite
                         <p>Oeh ne kramp, k'heb gehoord dat dat lastige dingen zijn he</p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                         <a href="mailto:webmaster@technica-antwerpen.be">webmaster@technica-antwerpen.be</a>
@@ -452,7 +452,7 @@
                     </div>
                     <div class="person-details">
                         <h3>Filip Penders</h3> 
-                        <h4><span>Ere-Praeses</span> - Production Engineer, Dymotec</h4>
+                        <h4><span>Ere-Praeses</span> - Production Engineer, ASML</h4>
                         <i class="fa fa-glass"></i> Nikka from the barrel
                         <p style="padding-bottom: 19px;">Penders, een vaste term in Antwerpen sinds 2014-2015</p>
                     </div>

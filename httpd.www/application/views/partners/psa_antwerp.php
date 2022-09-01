@@ -2,7 +2,7 @@
     <div class="container">
         <div class="grid">
             <div class="col-3 mcol-1">
-                <img src="<?php echo base_url(); ?>assets/images/sponsors/psa.png" />
+                <img src="<?php echo base_url(); ?>assets/images/sponsors/psa_antwerp.png" />
                 <div class="sponsor-contact">
                     <span class="fa-stack fa-lg">
                         <i class="fa fa-circle fa-stack-2x"></i>
@@ -15,9 +15,7 @@
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-phone fa-stack-1x"></i>
                     </span>
-                    <span class="sponsor-contact-txt">
-                        +32(0)3 260 61 11
-                    </span>
+                    <span class="sponsor-contact-txt"><a href="tel:+32(0)3 260 61 11">+32(0)3 260 61 11</a></span>
                 </div>
                 <div class="sponsor-contact">
                     <span class="fa-stack fa-lg">

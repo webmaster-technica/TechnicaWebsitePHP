@@ -2,7 +2,7 @@
     <div class="container">
         <div class="grid">
             <div class="col-3 mcol-1">
-                <img src="<?php echo base_url(); ?>assets/images/sponsors/xplore_group.jpg" />
+                <img src="<?php echo base_url(); ?>assets/images/sponsors/xplore_group.png" />
                 <div class="sponsor-contact">
                     <span class="fa-stack fa-lg">
                         <i class="fa fa-circle fa-stack-2x"></i>
@@ -47,7 +47,7 @@
                     Bij het ontwerp van onze technologieën staat de gebruiker steeds centraal. Een positieve gebruikerservaring is per slot van rekening allesbepalend voor het blijvende succes van jouw business.
                 </p>
                 <p>
-                Onderweg naar de toekomst, samen met jou.
+                    Onderweg naar de toekomst, samen met jou.
                 </p>
             </div>
         </div>
