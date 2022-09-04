@@ -22,7 +22,7 @@
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-globe fa-stack-1x"></i>
                     </span>
-                    <span class="sponsor-contact-txt selectable"><a href="https://www.starpowerpeople.com/nl" target="_blank">https://www.starpowerpeople.com/</a></span>
+                    <span class="sponsor-contact-txt selectable"><a href="https://www.starpowerpeople.com/nl" target="_blank">www.starpowerpeople.com</a></span>
                 </div>
             </div>
             <div class="col-23 mcol-1 textual">

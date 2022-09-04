@@ -22,7 +22,7 @@
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-globe fa-stack-1x"></i>
                     </span>
-                    <span class="sponsor-contact-txt"><a href="https://www.atsgroep.be/en/" target="_blank">https://www.atsgroep.be/en/</a></span>
+                    <span class="sponsor-contact-txt"><a href="https://www.atsgroep.be/en/" target="_blank">www.atsgroep.be</a></span>
                 </div>
             </div>
             <div class="col-23 mcol-1 textual">

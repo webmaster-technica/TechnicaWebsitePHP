@@ -414,7 +414,7 @@
                     </div>
                     <div class="person-details">
                         <h3>Ruben Vanoystaeyen</h3>
-                        <h4><span>Ere_Lid</span> - Elektromechanica Onderhoudstechnologie, AP</h4>
+                        <h4><span>Ere-Lid</span> - Elektromechanica Onderhoudstechnologie, AP</h4>
                         <i class="fa fa-glass"></i> Kasteel Rouge
                         <p>Ze zeggen altijd dat als je elke dag drinkt, je een alcoholieker bent. Dan is het maar goed dat ik elke nacht drink</p>
                     </div>

@@ -29,7 +29,7 @@
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-globe fa-stack-1x"></i>
                     </span>
-                    <span class="sponsor-contact-txt"><a href="https://www.denisdp.be" target="_blank">https://www.denisdp.be</a></span>
+                    <span class="sponsor-contact-txt"><a href="https://www.denisdp.be" target="_blank">www.denisdp.be</a></span>
                 </div>
             </div>
             <div class="col-23 mcol-1 textual">

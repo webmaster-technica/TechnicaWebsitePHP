@@ -22,7 +22,7 @@
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-globe fa-stack-1x"></i>
                     </span>
-                    <span class="sponsor-contact-txt"><a href="https://www.carrefour.be/nl.html" target="_blank">https://www.carrefour.be/nl.html</a></span>
+                    <span class="sponsor-contact-txt"><a href="https://www.carrefour.be/nl.html" target="_blank">www.carrefour.be</a></span>
                 </div>
             </div>
             <div class="col-23 mcol-1 textual">

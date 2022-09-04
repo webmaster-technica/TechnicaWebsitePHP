@@ -15,7 +15,7 @@
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-globe fa-stack-1x"></i>
                     </span>
-                    <span class="sponsor-contact-txt"><a class="selectable" href="https://www.airliquide.com/group/belgium" target="_blank">https://www.airliquide.com/group/belgium</a></span>
+                    <span class="sponsor-contact-txt"><a class="selectable" href="https://www.airliquide.com/group/belgium" target="_blank">www.airliquide.com/group/belgium</a></span>
                 </div>
             </div>
             <div class="col-23 mcol-1 textual">

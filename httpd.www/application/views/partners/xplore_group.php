@@ -26,27 +26,19 @@
                 </div>
             </div>
             <div class="col-23 mcol-1 textual">
-                <h2 class="h1">XPLORE GROUP</h2>
+                <h2 class="h1">Xplore Group</h2>
                 <p>
-                    We will never stop Xploring, It’s in our DNA.
-                </p>
-                <p>
+                    We will never stop Xploring, It’s in our DNA.<br>
                     Technologie is een onmisbaar onderdeel van onze samenleving geworden. We spenderen een groot deel van onze tijd “online”. 
                     Consumenten zijn op elk moment van de dag, waar ze zich ook bevinden, maar een muisklik of een swipe verwijderd van talloze digitale diensten. 
-                    Dat heeft zonder twijfel een grote invloed gehad op de manier waarop technologie is geëvolueerd.
-                </p>
-                <p>
-                    Het slim gebruik van technologie kan de doeltreffendheid van je marketingstrategie gevoelig verhogen. De oplossing is simpel: gooi het roer om en ga 
-                    voor een volledige digitale transformatie van je onderneming.
-                </p>
-                <p>
-                    Xplore Group stort zich samen met jou in het digitaal avontuur, in welk stadium van de reis jij je ook bevindt. We begeleiden en adviseren jou bij elke stap 
-                    van de weg. We houden steeds het einddoel voor ogen: een slimme, innovatieve, geïntegreerde en schaalbare oplossing die volledig is afgestemd op de noden van jouw onderneming.
-                </p>
-                <p>
-                    Bij het ontwerp van onze technologieën staat de gebruiker steeds centraal. Een positieve gebruikerservaring is per slot van rekening allesbepalend voor het blijvende succes van jouw business.
-                </p>
-                <p>
+                    Dat heeft zonder twijfel een grote invloed gehad op de manier waarop technologie is geëvolueerd.<br>
+                    Het slim gebruik van technologie kan de doeltreffendheid van je marketingstrategie gevoelig verhogen.
+                    De oplossing is simpel: gooi het roer om en ga voor een volledige digitale transformatie van je onderneming.<br>
+                    Xplore Group stort zich samen met jou in het digitaal avontuur, in welk stadium van de reis jij je ook bevindt.
+                    We begeleiden en adviseren jou bij elke stap van de weg. 
+                    We houden steeds het einddoel voor ogen: een slimme, innovatieve, geïntegreerde en schaalbare oplossing die volledig is afgestemd op de noden van jouw onderneming.<br>
+                    Bij het ontwerp van onze technologieën staat de gebruiker steeds centraal. 
+                    Een positieve gebruikerservaring is per slot van rekening allesbepalend voor het blijvende succes van jouw business.<br>
                     Onderweg naar de toekomst, samen met jou.
                 </p>
             </div>

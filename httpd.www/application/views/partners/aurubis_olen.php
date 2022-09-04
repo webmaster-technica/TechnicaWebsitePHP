@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="col-23 mcol-1 textual">
-                <h2 class="h1">Aurubis Olen nv.</h2>
+                <h2 class="h1">Aurubis Olen</h2>
                 <p>
                     Aurubis AG is a leading global provider of non-ferrous metals and one of the largest copper recyclersworldwide.
                     The company processes complex metal concentrates, scrap metals, organic and inorganic metal-bearing recycling materials, 
