@@ -4,16 +4,17 @@
     <div class="container textual">
         <h2 class="h1 center">Wie <span>zijn wij</span></h2>
         <p class="center">
-            Als faculteitsvereniging aan de AP-hogeschool van de professionele bachelor Elektromechanica, Integrale Veiligheid, 
-            Energiemanagement en Elektronica-ICT 
-            zijn we de laatste jaren weer enorm aan het groeien.<br>
-            Dit gebeurt door onze leden die ook graag de 
-            andere kant van het verder studeren willen ontdekken; van een feestje, brouwerijbezoek of een andere 
-            culturele activiteit zijn we niet vies. Toch draait het hier niet alleen om! 
-            <br><br>De vorige generaties 
-            Technicanen hebben een mooie database opgebouwd met samenvattingen, oefeningen en proefexamens. De juiste balans 
-            vinden tussen het plezier maken en studeren, is iets waar wij je dan ook zeer graag bij willen helpen. Ik kijk reeds
-            uit naar het komende academiejaar, hopelijk jij ook!
+        In men tweede jaar kwam ik voor het eerst in contact met studentenverenigingen. 
+        Na wat leuke en zotte avonden leerde ik Technica kennen. 
+        Heb ik ooit spijt gehad om me aan te sluiten bij deze doldwaze bende? 
+        VOLMONDIG NEE! Elke clubavond, feestje, SOC-activiteit is dan ook weer een herinnering die ik nooit zal vergeten. 
+        Dit jaar mag ik dan ook met trots zeggen dat ik met veel plezier technica ga leiden tot weer een jaar vol plezier, 
+        feest en verhalen dat ik nooit ga vergeten.
+        <br><br>Twijfel je nog om je in te schrijven? 
+        Kom dan zeker tijdens onze openingsweek, clubavonden of andere activiteiten eens babbelen! 
+        We zijn zeker niet bang om je in geur en kleur over ons leuke clubje te vertellen en je mee te nemen in onze zotte verhalen!
+        <br><br>Siebe Perdieus - Praeses 22-23
+
         </p>
     </div>
 </div>

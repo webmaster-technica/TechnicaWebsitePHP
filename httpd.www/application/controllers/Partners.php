@@ -13,22 +13,22 @@ class Partners extends CI_Controller {                  //VERANDEREN WANNEER SPO
             $this->load->view('templates/footer');
 	}
 
-        //  #
-        public function _3_it(){
+        //  # --> begint met t want anders werkt de controller niet
+        public function t3_it(){
             $data['pageTitle'] = "3-it";
             $data['picture'] = "";
             
             $this->load->view('templates/header', $data);
-            $this->load->view('partners/3_it');
+            $this->load->view('partners/t3_it');
             $this->load->view('templates/footer');
         }
 
-        public function _8T5(){
-            $data['pageTitle'] = "8Tea5";
+        public function t8tea5(){
+            $data['pageTitle'] = "8tea5";
             $data['picture'] = "";
             
             $this->load->view('templates/header', $data);
-            $this->load->view('partners/8T5');
+            $this->load->view('partners/t8tea5');
             $this->load->view('templates/footer');
         }
 
@@ -181,6 +181,15 @@ class Partners extends CI_Controller {                  //VERANDEREN WANNEER SPO
             
             $this->load->view('templates/header', $data);
             $this->load->view('partners/delaware');
+            $this->load->view('templates/footer');
+        }
+
+        public function deloitte(){
+            $data['pageTitle'] = "Deloitte";
+            $data['picture'] = "";
+            
+            $this->load->view('templates/header', $data);
+            $this->load->view('partners/deloitte');
             $this->load->view('templates/footer');
         }
 
