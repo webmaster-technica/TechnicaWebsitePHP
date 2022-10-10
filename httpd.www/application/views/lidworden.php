@@ -49,13 +49,18 @@
                     <input class="lidworden-input" type="text" name="postal" required/>
                 </div>
                 <div class="col-1">
-                    <h2>Dopen</h2>
+                    <h2>Dopen*</h2>
                     <input type="radio" name="dopen" value="Ja" /><span class="dopen">Ja</span>
                     <span style="margin-left: 50px;"><input type="radio" name="dopen" value="Nee" /><span class="dopen">Nee</span></span>
                 </div>
-                <div class="col-1">
+                <!-- <div class="col-1">
                     <h2>Foto uploaden*</h2>
                     <input class="lidworden-input" type="file" name="file" required/>
+                </div> -->
+                <div class="col-1">
+                    <h2>Privacybeleid*</h2>
+                    <input type="checkbox" name="agree" id="agree" required>
+                    <label for="agree">Ik ga akkoord met de algemene voorwaarden en het <a href="<?php echo base_url(); ?>assets/privacy_policy.pdf">Privacybeleid</a> van Technica</label>
                 </div>
                 <div class="robotic full" id="pot">
                     <h3>If you're human leave this blank:</h3>

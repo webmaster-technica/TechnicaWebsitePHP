@@ -20,28 +20,21 @@
                     <h3>Contact informatie</h3>
                     <div class="table-cell selectable">
                         <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                        <p>
-                            <a href="mailto:info@technica-antwerpen.be">info@technica-antwerpen.be</a>
-                        </p>
+                        <p><a href="mailto:info@technica-antwerpen.be">info@technica-antwerpen.be</a></p>
                     </div>
                     <div class="table-cell selectable">
                         <i class="fa fa-phone" aria-hidden="true"></i>
-                        <p>
-                            <a href="tel:+32479712286">+32 (0)479 71 22 86</a>
-                        </p>
+                        <p><a href="tel:+32479712286">+32 (0)479 71 22 86</a></p>
                     </div>
                     <div class="table-cell selectable">
                         <i class="fa fa-map-marker" aria-hidden="true"></i>
-                        <p style="cursor: pointer"  onclick="window.open('https\:\/\/goo.gl/maps/3VBnaTRSVANoru719','_blank')">
-                            Ellermanstraat 33<br>
-                            2060 Antwerpen
+                        <p style="cursor: pointer" onclick="window.open('https\:\/\/goo.gl/maps/3VBnaTRSVANoru719','_blank')">
+                            Ellermanstraat 33<br>2060 Antwerpen
                         </p>
                     </div>
                     <div class="table-cell selectable">
                         <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                        <p>
-                            <a style="text-decoration: underline" href="https://www.linkedin.com/company/technica-antwerpen/" target="_blank">LinkedIn Technica</a>
-                        </p>
+                        <p><a style="text-decoration: underline" href="https://www.linkedin.com/company/technica-antwerpen/" target="_blank">LinkedIn Technica</a></p>
                     </div>
                     <div class="table-cell" style="padding-bottom: 0;">
                         <i class="fa fa-dropbox" aria-hidden="true"></i>
@@ -55,6 +48,8 @@
                         <div data-href="http://www.ejustice.just.fgov.be/tsv_pdf/2019/08/07/19329540.pdf" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="http://www.ejustice.just.fgov.be/tsv_pdf/2019/08/07/19329540.pdf" class="fb-xfbml-parse-ignore"><a href="http://www.ejustice.just.fgov.be/tsv_pdf/2019/08/07/19329540.pdf">Statuten</a></blockquote></div>
                         <h3>APP</h3>
                         <div data-href="https://www.dropbox.com/s/jhpuezp8jiuddqm/Technica-APP.apk?dl=1" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.dropbox.com/s/jhpuezp8jiuddqm/Technica-App.apk?dl=1" class="fb-xfbml-parse-ignore"><a href="https://www.dropbox.com/s/jhpuezp8jiuddqm/Technica-App.apk?dl=1">APP</a></blockquote></div>
+                        <h3>Privacybeleid</h3>
+                        <div data-href="<?php echo base_url(); ?>assets/privacy_policy.pdf" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="<?php echo base_url(); ?>assets/privacy_policy.pdf" class="fb-xfbml-parse-ignore"><a href="<?php echo base_url(); ?>assets/privacy_policy.pdf">Beleid</a></blockquote></div>
                     </div>
                 </div>
             </div>
