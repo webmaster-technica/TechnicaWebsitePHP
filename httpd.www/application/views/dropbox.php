@@ -45,7 +45,7 @@
 
         <div><img src="<?php echo base_url(); ?>assets/images/sponsors/sick.png" /></div>
         <div><img src="<?php echo base_url(); ?>assets/images/sponsors/sweco.png" /></div>
-        <div><img src="<?php echo base_url(); ?>assets/images/sponsors/gekon.png" /></div>
+        <div><img src="<?php echo base_url(); ?>assets/images/sponsors/gecon.png" /></div>
 
         <div><img src="<?php echo base_url(); ?>assets/images/sponsors/rp_one.png" /></div>
       </div>

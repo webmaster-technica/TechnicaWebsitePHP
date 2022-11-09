@@ -55,12 +55,12 @@ class Lidworden extends CI_Controller {
                         $mail->isSMTP();                                      // Set mailer to use SMTP
                         $mail->Host = 'send.one.com;mailout.one.com';         // Specify main and backup SMTP servers
                         $mail->SMTPAuth = true;                               // Enable SMTP authentication
-                        $mail->Username = 'praeses@technica-antwerpen.be';  // SMTP username
-                        $mail->Password = 'bierislekker';              // SMTP password
+                        $mail->Username = 'webmaster@technica-antwerpen.be';  // SMTP username
+                        $mail->Password = 'Web01Web';              // SMTP password
                         $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
                         $mail->Port = 587;                                    // TCP port to connect to
 
-                        $mail->setFrom('praeses@technica-antwerpen.be', $_POST['name']);
+                        $mail->setFrom('webmaster@technica-antwerpen.be', $_POST['name']);
                         $mail->addAddress('webmaster@technica-antwerpen.be');
                         $mail->addAddress('praeses@technica-antwerpen.be');
                         $mail->addReplyTo($_POST['email']);

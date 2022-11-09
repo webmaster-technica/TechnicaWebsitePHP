@@ -278,10 +278,10 @@
     </div>
 
     <div class="col-3 mcol-2 scol-1">
-      <!--Gekon-->
+      <!--Gecon-->
       <div class="sponsor">
-        <a href="<?php echo base_url(); ?>partners/gekon"><img src="<?php echo base_url(); ?>assets/images/sponsors/gekon.png" /></a>
-        <a class="sponsor-read-more" href="<?php echo base_url(); ?>partners/gekon">Lees meer</a>
+        <a href="<?php echo base_url(); ?>partners/gecon"><img src="<?php echo base_url(); ?>assets/images/sponsors/gecon.png" /></a>
+        <a class="sponsor-read-more" href="<?php echo base_url(); ?>partners/gecon">Lees meer</a>
       </div>
     </div>
 

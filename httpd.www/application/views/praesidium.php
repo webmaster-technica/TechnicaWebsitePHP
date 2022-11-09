@@ -28,7 +28,7 @@
                 <div class="person-wrap">
                     <div class="person-image">
                         <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Siebe_Keppers.jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Siebe_Keppers.jpg" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Siebe_Keppers_Zot.jpg" />
                         <!-- <a href="" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> -->
                     </div>
                     <div class="person-details">
@@ -89,7 +89,7 @@
                 <div class="person-wrap">
                     <div class="person-image">
                         <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Jalna_Bonge.jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Jalna_Bonge.jpg" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Jalna_Bonge_Zot.jpg" />
                         <a href="https://www.linkedin.com/in/jalna-bonge-016709139/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                     </div>
                     <div class="person-details">
@@ -98,7 +98,7 @@
                         <i class="fa fa-glass"></i> Stella op kamertemperatuur
                         <p>Dankzij de mannen van Technica ben ik van't straat</p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <a href="mailto:abactis@technica-antwerpen.be">abactis@technica-antwerpen.be</a>
+                        <a href="mailto:ab-actis@technica-antwerpen.be">ab-actis@technica-antwerpen.be</a>
                     </div>
                 </div>
             </div>
@@ -113,7 +113,7 @@
                     </div>
                     <div class="person-details">
                         <h3>Robbe Schillemans</h3>
-                        <h4><span>Schachtenmeester</span>  - Integrale Veiligheid, AP</h4>
+                        <h4><span>Schachtenmeester</span>  - Schakelprogramma Veiligheidswetenschappen, UA</h4>
                         <i class="fa fa-glass"></i> Baco
                         <p>Drinken is drinken. Zuipen is kruipen!</p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -131,7 +131,7 @@
                 <div class="person-wrap">
                     <div class="person-image">
                         <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Lorenz_Mathys.jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Lorenz_Mathys.jpg" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Lorenz_Mathys_Zot.jpg" />
                         <!-- <a href="" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> -->
                     </div>
                     <div class="person-details">
@@ -140,7 +140,7 @@
                         <i class="fa fa-glass"></i> La Trappe tripel
                         <p>Vorig jaar ben ik een tijd gestopt met drinken, slechtste 20 minuten van mijn leven</p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <a href="mailto:schachtenmeester@technica-antwerpen.be">schachtenmeester@technica-antwerpen.be</a>
+                        <a href="mailto:schachtentemmer@technica-antwerpen.be">schachtentemmer@technica-antwerpen.be</a>
                     </div>
                 </div>
             </div>
@@ -150,7 +150,7 @@
                 <div class="person-wrap">
                     <div class="person-image">
                         <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Thibault_Van_Decraen.jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Thibault_Van_Decraen.jpg" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Thibault_Van_Decraen_Zot.jpg" />
                         <a href="https://www.linkedin.com/in/thibault-van-decraen-2319731b8/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                     </div>
                     <div class="person-details">
@@ -159,7 +159,7 @@
                         <i class="fa fa-glass"></i> Gulden Draak van 't vat
                         <p>If you ever need trouble, I'm here for you!</p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <a href="mailto:schachtenmeester@technica-antwerpen.be">schachtenmeester@technica-antwerpen.be</a>
+                        <a href="mailto:schachtentemmer@technica-antwerpen.be">schachtentemmer@technica-antwerpen.be</a>
                     </div>
                 </div>
             </div>
@@ -169,7 +169,7 @@
                 <div class="person-wrap">
                     <div class="person-image">
                         <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Nikita_Verhoeven.jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Nikita_Verhoeven.jpg" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Nikita_Verhoeven_Zot.jpg" />
                         <a href="https://www.linkedin.com/in/nikita-verhoeven-17bb62192/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                     </div>
                     <div class="person-details">
@@ -192,7 +192,7 @@
                 <div class="person-wrap">
                     <div class="person-image">
                         <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Niels_Cleerbout.jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Niels_Cleerbout.jpg" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Niels_Cleerbout_Zot.jpg" />
                         <a href="https://www.linkedin.com/in/niels-cleerbout-16b800216/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                     </div>
                     <div class="person-details">
@@ -211,7 +211,7 @@
                 <div class="person-wrap">
                     <div class="person-image">
                         <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Matthias_Tribout.jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Matthias_Tribout.jpg" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Matthias_Tribout_Zot.jpg" />
                         <a href="https://www.linkedin.com/in/matthias-tribout-0baaa2214/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                     </div>
                     <div class="person-details">
@@ -230,7 +230,7 @@
                 <div class="person-wrap">
                     <div class="person-image">
                         <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Cedric_Naenen.jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Cedric_Naenen.jpg" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Cedric_Naenen_Zot.jpg" />
                         <!-- <a href="" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> -->
                     </div>
                     <div class="person-details">
@@ -253,14 +253,14 @@
                 <div class="person-wrap">
                     <div class="person-image">
                         <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Rik_Geenen.jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Rik_Geenen.jpg" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Rik_Geenen_Zot.jpg" />
                         <!-- <a href="" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> -->
                     </div>
                     <div class="person-details">
                         <h3>Rik Geenen</h3>
                         <h4><span>S.O.C.</span> - Elektromechanica, AP</h4>
                         <i class="fa fa-glass"></i>Karmeliet
-                        <p>No matter how bad life gets, there�s always beer.</p>
+                        <p>No matter how bad life gets, there's always beer.</p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                         <a href="mailto:soc@technica-antwerpen.be">soc@technica-antwerpen.be</a>
                     </div>
@@ -272,7 +272,7 @@
                 <div class="person-wrap">
                     <div class="person-image">
                         <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Senne_Vanhoucke.jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Senne_Vanhoucke.jpg" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Senne_Vanhoucke_Zot.jpg" />
                         <a href="https://www.linkedin.com/in/senne-vanhoucke-0a4841218/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                     </div>
                     <div class="person-details">
@@ -291,7 +291,7 @@
                 <div class="person-wrap">
                     <div class="person-image">
                         <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Quinten_De_Boeck.jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Quinten_De_Boeck.jpg" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Quinten_De_Boeck_Zot.jpg" />
                         <a href="https://www.linkedin.com/in/quinten-de-boeck-376a24241/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                     </div>
                     <div class="person-details">

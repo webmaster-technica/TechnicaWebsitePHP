@@ -299,13 +299,13 @@ class Partners extends CI_Controller
 
 
   //  G
-  public function gekon()
+  public function gecon()
   {
-    $data['pageTitle'] = "Gekon";
+    $data['pageTitle'] = "Gecon";
     $data['picture'] = "";
 
     $this->load->view('templates/header', $data);
-    $this->load->view('partners/gekon');
+    $this->load->view('partners/gecon');
     $this->load->view('templates/footer');
   }
 
