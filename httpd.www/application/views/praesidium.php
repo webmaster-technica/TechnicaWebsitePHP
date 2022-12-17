@@ -37,7 +37,7 @@
                         <i class="fa fa-glass"></i> Duvel
                         <p></p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <a href="mailto:vicepraeses@technica-antwerpen.be">vicepraeses@technica-antwerpen.be</a>
+                        <a href="mailto:vice-praeses@technica-antwerpen.be">vice-praeses@technica-antwerpen.be</a>
                     </div>
                 </div>
             </div>

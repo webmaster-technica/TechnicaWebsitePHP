@@ -131,6 +131,16 @@ class Partners extends CI_Controller
 
 
   //  C
+  public function camco()
+  {
+    $data['pageTitle'] = "Camco";
+    $data['picture'] = "";
+
+    $this->load->view('templates/header', $data);
+    $this->load->view('partners/camco');
+    $this->load->view('templates/footer');
+  }
+
   public function carrefour()
   {
     $data['pageTitle'] = "Carrefour";
@@ -148,6 +158,16 @@ class Partners extends CI_Controller
 
     $this->load->view('templates/header', $data);
     $this->load->view('partners/chipsoft');
+    $this->load->view('templates/footer');
+  }
+
+  public function clayton()
+  {
+    $data['pageTitle'] = "Clayton";
+    $data['picture'] = "";
+
+    $this->load->view('templates/header', $data);
+    $this->load->view('partners/clayton');
     $this->load->view('templates/footer');
   }
 
@@ -225,7 +245,7 @@ class Partners extends CI_Controller
 
   public function devoteam()
   {
-    $data['pageTitle'] = "devoteam";
+    $data['pageTitle'] = "Devoteam";
     $data['picture'] = "";
 
     $this->load->view('templates/header', $data);
@@ -330,6 +350,16 @@ class Partners extends CI_Controller
 
     $this->load->view('templates/header', $data);
     $this->load->view('partners/induver');
+    $this->load->view('templates/footer');
+  }
+
+  public function itb()
+  {
+    $data['pageTitle'] = "ITB";
+    $data['picture'] = "";
+
+    $this->load->view('templates/header', $data);
+    $this->load->view('partners/itb');
     $this->load->view('templates/footer');
   }
 
