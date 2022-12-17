@@ -5,7 +5,7 @@ SELECT * FROM `company`
 
 Add Object:
 INSERT INTO `company` (name, street, house_number, postal_code, city, country, email, phone_number, website)
-VALUES ('Axxes', 'Entrepotkaai', 10, 2000, 'Antwermpen', 'België', 'axxes@axxes.com', '+32 03 234 99 58', 'https://www.axxes.com/')
+VALUES ('Axxes', 'Entrepotkaai', 10, 2000, 'Antwerpen', 'België', 'axxes@axxes.com', '+32 03 234 99 58', 'www.axxes.com')
 
 INSERT INTO `vacancy` (company_id, title, text, summary, study, date, slug, vacancy_url)
-VALUES (15, 'QA Program', '', '', 'Electronica-ICT', '2022-09-01', 'qa_program', 'https://learning.ap.be/pluginfile.php/1770125/mod_folder/content/0/Vacature_QA%20PROGRAM.pdf?forcedownload=1')
+VALUES (15, 'QA Program', '', '', 'Electronica-ICT', '2022-09-01', 'qa_program', 'https://www.dropbox.com/s/2ohwy7n6tfw5wuw/itb_project_engineer.pdf?dl=1')
