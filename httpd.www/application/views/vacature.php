@@ -10,6 +10,10 @@
                 <img src="<?php echo base_url(); ?>assets/images/sponsors/<?php $string = strtolower($company->name); echo preg_replace('/\s+/', '', $string); ?>.png"/>
                 <h2><?php echo $company->name;?></h2>
                 <div class="detail">
+                    <h4>PDF</h4>
+                    <p><a href="<?php echo $vacancy->vacancy_url;?>" target="_blank"><?php echo $vacancy->title;?></a></p>
+                </div>
+                <div class="detail">
                     <h4>E-mail</h4>
                     <p><?php echo $company->email;?></p>
                 </div>

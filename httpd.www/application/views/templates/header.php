@@ -45,7 +45,8 @@
             <li><a href="<?php echo base_url();?>praesidium">Praesidium</a></li>
             <li><a href="<?php echo base_url();?>partners">Partners</a></li>
             <li><a href="<?php echo base_url();?>jobportaal">Job portaal</a></li>
-            <li><a href="<?php echo base_url();?>lidworden">Lid worden</a></li>
+            <li><a href="https://form.jotform.com/232484089744365">Lid worden</a></li>
+            <!--<li><a href="<?php echo base_url();?>lidworden">Lid worden</a></li>-->
         </ul>
     </div>
     <div <?php if(isset($isFrontpage) && $isFrontpage) : ?>class="top-header top-header-homepage"<?php else : ?>class="top-header"<?php endif; ?>>
@@ -73,7 +74,8 @@
                         <div class="menu-right">
                             <li><a href="<?php echo base_url();?>partners">Partners</a></li>
                             <li><a href="<?php echo base_url();?>jobportaal">Job portaal</a></li>
-                            <li><a href="<?php echo base_url();?>lidworden">Lid worden</a>
+                            <li><a href="https://form.jotform.com/232484089744365">Lid worden</a></li>
+                            <!--<li><a href="<?php echo base_url();?>lidworden">Lid worden</a>-->
                         </div>
                     </ul>
                     <div class="leftline"></div>

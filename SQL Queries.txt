@@ -8,4 +8,4 @@ INSERT INTO `company` (name, street, house_number, postal_code, city, country, e
 VALUES ('Axxes', 'Entrepotkaai', 10, 2000, 'Antwerpen', 'België', 'axxes@axxes.com', '+32 03 234 99 58', 'www.axxes.com')
 
 INSERT INTO `vacancy` (company_id, title, text, summary, study, date, slug, vacancy_url)
-VALUES (15, 'QA Program', '', '', 'Electronica-ICT', '2022-09-01', 'qa_program', 'https://www.dropbox.com/s/2ohwy7n6tfw5wuw/itb_project_engineer.pdf?dl=1')
+VALUES (18, 'QA Traineeship', '', '', 'Electronica-ICT', '2023-09-01', 'axxes_qae', 'https://www.dropbox.com/s/aqo2z7mtzvan8ph/Axxes_QA_Traineeship.pdf?dl=1')

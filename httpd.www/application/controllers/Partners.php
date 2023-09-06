@@ -430,13 +430,13 @@ class Partners extends CI_Controller
     $this->load->view('templates/footer');
   }
 
-  public function pdm()
+  public function pdm_group()
   {
     $data['pageTitle'] = "PDM";
     $data['picture'] = "";
 
     $this->load->view('templates/header', $data);
-    $this->load->view('partners/pdm');
+    $this->load->view('partners/pdm_group');
     $this->load->view('templates/footer');
   }
 
@@ -470,13 +470,13 @@ class Partners extends CI_Controller
     $this->load->view('templates/footer');
   }
 
-  public function process_automation_solutions()
+  public function pa_solutions()
   {
     $data['pageTitle'] = "Process automation solutions";
     $data['picture'] = "";
 
     $this->load->view('templates/header', $data);
-    $this->load->view('partners/process_automation_solutions');
+    $this->load->view('partners/pa_solutions');
     $this->load->view('templates/footer');
   }
 
@@ -554,13 +554,13 @@ class Partners extends CI_Controller
     $this->load->view('templates/footer');
   }
 
-  public function spoc()
+  public function spoc_recruitment()
   {
     $data['pageTitle'] = "SPOC recruitment";
     $data['picture'] = "";
 
     $this->load->view('templates/header', $data);
-    $this->load->view('partners/spoc');
+    $this->load->view('partners/spoc_recruitment');
     $this->load->view('templates/footer');
   }
 

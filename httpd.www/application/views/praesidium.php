@@ -8,15 +8,15 @@
             <div class="col-3 mcol-1">
                 <div class="person-wrap">
                     <div class="person-image">
-                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Siebe_Perdieus.jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Siebe_Perdieus_Zot.jpg" />
-                        <a href="https://www.linkedin.com/in/siebe-perdieus-474b96196/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Siebe_Keppers.jpg" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Siebe_Keppers_Zot.jpg" />
+                        <!-- <a href="" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> -->
                     </div>
                     <div class="person-details">
-                        <h3>Siebe Perdieus</h3>
-                        <h4><span>Praeses</span> - Productontwikkeling, UA</h4>
-                        <i class="fa fa-glass"></i> Cola
-                        <p>Ik denk altijd goed na, voordat ik iets dom zeg</p>
+                        <h3>Siebe Keppers</h3>
+                        <h4><span>Praeses</span> - Integrale veiligheid, AP</h4>
+                        <i class="fa fa-glass"></i> Rouge van't vat
+                        <p></p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                         <a href="mailto:praeses@technica-antwerpen.be">praeses@technica-antwerpen.be</a>
                     </div>
@@ -27,13 +27,13 @@
             <div class="col-3 mcol-1">
                 <div class="person-wrap">
                     <div class="person-image">
-                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Siebe_Keppers.jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Siebe_Keppers_Zot.jpg" />
-                        <!-- <a href="" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> -->
+                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Senne_Vanhoucke.jpg" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Senne_Vanhoucke_Zot.jpg" />
+                        <a href="https://www.linkedin.com/in/senne-vanhoucke-0a4841218/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                     </div>
                     <div class="person-details">
-                        <h3>Siebe Keppers</h3>
-                        <h4><span>Vice-Praeses</span> - Integrale veiligheid, AP</h4>
+                        <h3>Senne Vanhoucke</h3>
+                        <h4><span>Vice-Praeses</span> - Industriele wetenschappen: Elektromechanica, UA</h4>
                         <i class="fa fa-glass"></i> Duvel
                         <p></p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -52,9 +52,9 @@
                     </div>
                     <div class="person-details">
                         <h3>Stef Van Loock</h3>
-                        <h4><span>Quaestor</span> - Elektromechanica Procesautomatisering, AP</h4>
+                        <h4><span>Quaestor</span> - Industriele wetenschappen: Elektromechanica, UA</h4>
                         <i class="fa fa-glass"></i> Triple Westmalle
-                        <p>Geen bier op woensdag is net als plassen in bad, het kan wel, maar het hoort niet.</p>
+                        <p>Vandaag, morgen of overmorgen een pintje komt zonder zorgen </p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                         <a href="mailto:financieel@technica-antwerpen.be">financieel@technica-antwerpen.be</a>
                     </div>
@@ -75,8 +75,8 @@
                     </div>
                     <div class="person-details">
                         <h3>Arvo Cant</h3>
-                        <h4><span>Cantor</span> - Electronica-ICT, AP</h4>
-                        <i class="fa fa-glass"></i> Jagerbombs
+                        <h4><span>Cantor</span> - Industriele wetenschappen: Electronica-ICT, UA</h4>
+                        <i class="fa fa-glass"></i> Triple Karmeliet
                         <p>Cant-or staat in de naam</p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                         <a href="mailto:cantor@technica-antwerpen.be">cantor@technica-antwerpen.be</a>
@@ -107,15 +107,15 @@
             <div class="col-3 mcol-1">
                 <div class="person-wrap">
                     <div class="person-image">
-                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Robbe_Schillemans.jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Robbe_Schillemans_Zot.jpg" />
-                        <a href="https://www.linkedin.com/in/robbe-schillemans-b50724216/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Thibault_Van_Decraen.jpg" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Thibault_Van_Decraen_Zot.jpg" />
+                        <a href="https://www.linkedin.com/in/thibault-van-decraen-2319731b8/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                     </div>
                     <div class="person-details">
-                        <h3>Robbe Schillemans</h3>
-                        <h4><span>Schachtenmeester</span>  - Schakelprogramma Veiligheidswetenschappen, UA</h4>
-                        <i class="fa fa-glass"></i> Baco
-                        <p>Drinken is drinken. Zuipen is kruipen!</p>
+                        <h3>Thibault Van Decraen</h3>
+                        <h4><span>Schachtenmeester</span> - Educatieve Bachelor Secundair Onderwijs, AP</h4>
+                        <i class="fa fa-glass"></i> Gulden Draak
+                        <p>If you ever need trouble, I'm here for you!</p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                         <a href="mailto:schachtenmeester@technica-antwerpen.be">schachtenmeester@technica-antwerpen.be</a>
                     </div>
@@ -130,34 +130,15 @@
             <div class="col-3 mcol-1">
                 <div class="person-wrap">
                     <div class="person-image">
-                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Lorenz_Mathys.jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Lorenz_Mathys_Zot.jpg" />
-                        <!-- <a href="" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> -->
+                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/anoniem.png" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/anoniem.png" />
+                        <a href="https://www.linkedin.com/in/casper-bauwelinck-3561021ba/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                     </div>
                     <div class="person-details">
-                        <h3>Lorenz Mathys</h3>
-                        <h4><span>Schachtentemmer</span> - Elektromechanica Procesautomatisering, AP</h4>
-                        <i class="fa fa-glass"></i> La Trappe tripel
-                        <p>Vorig jaar ben ik een tijd gestopt met drinken, slechtste 20 minuten van mijn leven</p>
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <a href="mailto:schachtentemmer@technica-antwerpen.be">schachtentemmer@technica-antwerpen.be</a>
-                    </div>
-                </div>
-            </div>
-
-            <!--                                                    SCHACHTENTEMMER                                                 -->
-            <div class="col-3 mcol-1">
-                <div class="person-wrap">
-                    <div class="person-image">
-                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Thibault_Van_Decraen.jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Thibault_Van_Decraen_Zot.jpg" />
-                        <a href="https://www.linkedin.com/in/thibault-van-decraen-2319731b8/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                    </div>
-                    <div class="person-details">
-                        <h3>Thibault Van Decraen</h3>
-                        <h4><span>Schachtentemmer</span> - Educatieve Bachelor Secundair Onderwijs, AP</h4>
-                        <i class="fa fa-glass"></i> Gulden Draak van 't vat
-                        <p>If you ever need trouble, I'm here for you!</p>
+                        <h3>Casper Bauwelinck</h3>
+                        <h4><span>Schachtentemmer</span> - Rechtspraktijk/Crime & Justice Police, AP</h4>
+                        <i class="fa fa-glass"></i> Ne frisse Stella
+                        <p></p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                         <a href="mailto:schachtentemmer@technica-antwerpen.be">schachtentemmer@technica-antwerpen.be</a>
                     </div>
@@ -174,7 +155,7 @@
                     </div>
                     <div class="person-details">
                         <h3>Nikita Verhoeven</h3>
-                        <h4><span>Zedenmeester</span> - Maatschappelijk werk</h4>
+                        <h4><span>Zedenmeester</span> - Educatieve Bachelor secundair onderwijs, TM</h4>
                         <i class="fa fa-glass"></i> Fuze tea Peach
                         <p>Altijd lachen, dat helpt bij alles</p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -182,50 +163,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-
-
-        <div class="grid">
+            
             <!--                                                    FEEST                                                 -->
-            <div class="col-3 mcol-1">
-                <div class="person-wrap">
-                    <div class="person-image">
-                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Niels_Cleerbout.jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Niels_Cleerbout_Zot.jpg" />
-                        <a href="https://www.linkedin.com/in/niels-cleerbout-16b800216/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                    </div>
-                    <div class="person-details">
-                        <h3>Niels Cleerbout</h3>
-                        <h4><span>Feest</span> - Elektromechanica Procesautomatisering, AP</h4>
-                        <i class="fa fa-glass"></i>Triple d'Anvers
-                        <p>Er is altijd tijd om te brakke met den Brakke!</p>
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <a href="mailto:feest@technica-antwerpen.be">feest@technica-antwerpen.be</a>
-                    </div>
-                </div>
-            </div>
-
-            <!--                                                    FEEST                                                 -->
-            <div class="col-3 mcol-1">
-                <div class="person-wrap">
-                    <div class="person-image">
-                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Matthias_Tribout.jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Matthias_Tribout_Zot.jpg" />
-                        <a href="https://www.linkedin.com/in/matthias-tribout-0baaa2214/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                    </div>
-                    <div class="person-details">
-                        <h3>Matthias Tribout</h3>
-                        <h4><span>Feest</span> - Integrale veiligheid, AP</h4>
-                        <i class="fa fa-glass"></i> La Chouffe
-                        <p>Hard gaan of niet gaan</p>
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <a href="mailto:feest@technica-antwerpen.be">feest@technica-antwerpen.be</a>
-                    </div>
-                </div>
-            </div>
-
-            <!--                                                    SOC                                                 -->
             <div class="col-3 mcol-1">
                 <div class="person-wrap">
                     <div class="person-image">
@@ -235,11 +174,11 @@
                     </div>
                     <div class="person-details">
                         <h3>Cedric Naenen</h3>
-                        <h4><span>S.O.C.</span> - Elektromechanica, AP</h4>
+                        <h4><span>Feest</span> - Elektromechanica, AP</h4>
                         <i class="fa fa-glass"></i> Fristi
                         <p>Mooi het leven is mooi -Will Tura</p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <a href="mailto:soc@technica-antwerpen.be">soc@technica-antwerpen.be</a>
+                        <a href="mailto:feest@technica-antwerpen.be">feest@technica-antwerpen.be</a>
                     </div>
                 </div>
             </div>
@@ -248,7 +187,8 @@
 
 
         <div class="grid">
-            <!--                                                    SOC                                                 -->
+
+            <!--                                                    FEEST                                                 -->
             <div class="col-3 mcol-1">
                 <div class="person-wrap">
                     <div class="person-image">
@@ -258,49 +198,48 @@
                     </div>
                     <div class="person-details">
                         <h3>Rik Geenen</h3>
-                        <h4><span>S.O.C.</span> - Elektromechanica, AP</h4>
-                        <i class="fa fa-glass"></i>Karmeliet
-                        <p>No matter how bad life gets, there's always beer.</p>
+                        <h4><span>Feest</span> - Elektromechanica: Automatistatie, AP</h4>
+                        <i class="fa fa-glass"></i> Veul bier
+                        <p>Why overthink when you can overdrink</p>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <a href="mailto:feest@technica-antwerpen.be">feest@technica-antwerpen.be</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--                                                    SOC                                                 -->
+            <div class="col-3 mcol-1">
+                <div class="person-wrap">
+                    <div class="person-image">
+                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Lorenz_Mathys.jpg" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Lorenz_Mathys_Zot.jpg" />
+                        <!-- <a href="" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> -->
+                    </div>
+                    <div class="person-details">
+                        <h3>Lorenz Mathys</h3>
+                        <h4><span>S.O.C.</span> - Elektromechanica: Procesautomatisering, AP</h4>
+                        <i class="fa fa-glass"></i> La Trappe tripel
+                        <p>Vorig jaar ben ik een tijd gestopt met drinken, slechtste 20 minuten van mijn leven</p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                         <a href="mailto:soc@technica-antwerpen.be">soc@technica-antwerpen.be</a>
                     </div>
                 </div>
             </div>
 
-            <!--                                                    PR                                                 -->
+            <!--                                                    SOC                                                 -->
             <div class="col-3 mcol-1">
                 <div class="person-wrap">
                     <div class="person-image">
-                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Senne_Vanhoucke.jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Senne_Vanhoucke_Zot.jpg" />
-                        <a href="https://www.linkedin.com/in/senne-vanhoucke-0a4841218/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/anoniem.png" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/anoniem.png" />
                     </div>
                     <div class="person-details">
-                        <h3>Senne Vanhoucke</h3>
-                        <h4><span>P.R.</span> - Elektromechanica, AP</h4>
-                        <i class="fa fa-glass"></i> Duvel
-                        <p></p>
+                        <h3>Xander Vincent</h3>
+                        <h4><span>S.O.C.</span> - Integrale Veiligheid, AP</h4>
+                        <i class="fa fa-glass"></i> La chouffe
+                        <p>Nie neute, Nie pleuje</p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <a href="mailto:pr@technica-antwerpen.be">pr@technica-antwerpen.be</a>
-                    </div>
-                </div>
-            </div>
-
-            <!--                                                    PR                                                 -->
-            <div class="col-3 mcol-1">
-                <div class="person-wrap">
-                    <div class="person-image">
-                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Quinten_De_Boeck.jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Quinten_De_Boeck_Zot.jpg" />
-                        <a href="https://www.linkedin.com/in/quinten-de-boeck-376a24241/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                    </div>
-                    <div class="person-details">
-                        <h3>Quinten De Boeck</h3>
-                        <h4><span>P.R.</span>  - Elektromechanica, AP</h4>
-                        <i class="fa fa-glass"></i> Cara gebrouwen in Noord-Frankrijk
-                        <p>Het leven is nie voor aan een bushalte te staan</p>
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <a href="mailto:pr@technica-antwerpen.be">pr@technica-antwerpen.be</a>
+                        <a href="mailto:soc@technica-antwerpen.be">soc@technica-antwerpen.be</a>
                     </div>
                 </div>
             </div>
@@ -309,25 +248,66 @@
 
 
         <div class="grid">
+            <!--                                                    PR                                                 -->
+            <div class="col-3 mcol-1">
+                <div class="person-wrap">
+                    <div class="person-image">
+                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/anoniem.png" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/anoniem.png" />
+                        <a href="https://www.linkedin.com/in/brecht-van-den-brandt-856851272/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="person-details">
+                        <h3>Brecht Van den Brandt</h3>
+                        <h4><span>P.R.</span> - Elektromechanica: Automatistatie, AP</h4>
+                        <i class="fa fa-glass"></i> Tripel Karmeliet van't vat
+                        <p>Alcoholvrij bier is als een BH aan de waslijn: het beste is er uit!</p>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <a href="mailto:pr@technica-antwerpen.be">pr@technica-antwerpen.be</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--                                                    PR                                                 -->
+            <div class="col-3 mcol-1">
+                <div class="person-wrap">
+                    <div class="person-image">
+                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Nikita_Verhoeven.jpg" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Nikita_Verhoeven_Zot.jpg" />
+                        <a href="https://www.linkedin.com/in/nikita-verhoeven-17bb62192/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="person-details">
+                        <h3>Nikita Verhoeven</h3>
+                        <h4><span>P.R.</span> - Educatieve Bachelor secundair onderwijs, TM</h4>
+                        <i class="fa fa-glass"></i> Fuze tea Peach
+                        <p>Altijd lachen, dat helpt bij alles</p>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <a href="mailto:zeden@technica-antwerpen.be">zeden@technica-antwerpen.be</a>
+                    </div>
+                </div>
+            </div>
+            
             <!--                                                    REDACTOR                                                 -->
             <div class="col-3 mcol-1">
                 <div class="person-wrap">
                     <div class="person-image">
-                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Jessi_Snelders.jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Jessi_Snelders_Zot.jpg" />
-                        <a href="https://www.linkedin.com/in/jessi-snelders-9a3812209/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/anoniem.png" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/anoniem.png" />
                     </div>
                     <div class="person-details">
-                        <h3>Jessi Snelders</h3>
-                        <h4><span>Redactor</span> - Rechtspraktijk, AP</h4>
-                        <i class="fa fa-glass"></i> Raketje
-                        <p>Ge kunt beter spijt hebben van iets dat je gedaan hebt dan spijt hebben van iets wat je niet gedaan hebt</p>
+                        <h3>Vitto Grolus</h3>
+                        <h4><span>Redactor</span> - Elektromechanica: Procesautomatisering, AP</h4>
+                        <i class="fa fa-glass"></i> Een goe Seef'ke
+                        <p>Bier is niet het antwoord, het is de vraag waarop ja het antwoord is.</p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
                         <a href="mailto:redactor@technica-antwerpen.be">redactor@technica-antwerpen.be</a>
                     </div>
                 </div>
             </div>
+        </div>
 
+
+
+        <div class="grid">
             <!--                                                     WEBMASTER                                                -->
             <div class="col-3 mcol-1" id="weekie">
                 <div class="person-wrap">
@@ -338,7 +318,7 @@
                     </div>
                     <div class="person-details">
                         <h3>Thomas Kramp</h3>
-                        <h4><span>Webmaster</span> - Ingenieur Elektronica-ICT, UA</h4>
+                        <h4><span>Webmaster</span> - Industriele wetenschappen: Elektronica-ICT, UA</h4>
                         <i class="fa fa-glass"></i> De originele Sprite
                         <p>Oeh ne kramp, k'heb gehoord dat dat lastige dingen zijn he</p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -347,85 +327,24 @@
                 </div>
             </div>
 
-            <!--                                                     Resident DJ                                                -->
-            <div class="col-3 mcol-1" id="weekie">
-                <div class="person-wrap">
-                    <div class="person-image">
-                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Axel_Degrande.jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>/assets/images/praesidium/Axel_Degrande_Zot.jpg" />
-                        <a href="https://www.linkedin.com/in/axel-degrande-2119601a7/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                    </div>
-                    <div class="person-details">
-                        <h3>Axel Degrande</h3>
-                        <h4><span>Resident DJ</span> - Industrieel Ingenieur, UA</h4>
-                        <i class="fa fa-glass"></i> Stella op koelkasttemperatuur
-                        <p>Technica goes brrrrrr</p>
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                        <a href="mailto:residentdj@technica-antwerpen.be">residentdj@technica-antwerpen.be</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="grid">
             <!--                                                    PETER                                                -->
             <div class="col-3 mcol-1">
                 <div class="person-wrap">
                     <div class="person-image">
-                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Bjorn_Jongenelen.jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Bjorn_Jongenelen_Zot.jpg" />
-                        <a href="https://www.linkedin.com/in/bjorn-jongenelen-02a4961b2/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Siebe_Perdieus.jpg" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Siebe_Perdieus_Zot.jpg" />
+                        <a href="https://www.linkedin.com/in/siebe-perdieus-474b96196/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                     </div>
                     <div class="person-details">
-                        <h3>Bjorn Jongenelen</h3>
-                        <h4><span>Peter</span> - Elektronica-ICT, AP</h4>
-                        <i class="fa fa-glass"></i> Fanta
-                        <p>Onze bompa zei altijd veel bier drinken want alcohol da ontsmet <br>~bompa</p>
+                        <h3>Siebe Perdieus</h3>
+                        <h4><span>Peter</span> - Productontwikkeling, UA</h4>
+                        <i class="fa fa-glass"></i> Cola
+                        <p style="padding-bottom: 19px;">Ik denk altijd goed na, voordat ik iets dom zeg</p>
                     </div>
                 </div>
             </div>
 
             <!--                                                    PETER                                                -->
-            <div class="col-3 mcol-1">
-                <div class="person-wrap">
-                    <div class="person-image">
-                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Rob_Mertens.jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Rob_Mertens_Zot.jpg" />
-                        <a href="https://www.linkedin.com/in/rob-mertens-088b68191/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                    </div>
-                    <div class="person-details">
-                        <h3>Rob Mertens</h3>
-                        <h4><span>Peter</span> - Ingenieur Elektronica-ICT, UA</h4>
-                        <i class="fa fa-glass"></i> Fristi
-                        <p>Rick & Morty season 2, episode 5, 6:05</p>
-                    </div>
-                </div>
-            </div>
-
-            <!--                                                    ERE-LID                                                 -->
-            <div class="col-3 mcol-1">
-                <div class="person-wrap">
-                    <div class="person-image">
-                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Ruben_Vanoystaeyen.jpg" />
-                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Ruben_Vanoystaeyen_Zot.jpg" />
-                        <a href="https://www.linkedin.com/in/ruben-vanoystaeyen-8a0abb1b2/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-                    </div>
-                    <div class="person-details">
-                        <h3>Ruben Vanoystaeyen</h3>
-                        <h4><span>Ere-Lid</span> - Elektromechanica Onderhoudstechnologie, AP</h4>
-                        <i class="fa fa-glass"></i> Kasteel Rouge
-                        <p>Ze zeggen altijd dat als je elke dag drinkt, je een alcoholieker bent. Dan is het maar goed dat ik elke nacht drink</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="grid">
-            <!--                                                    ERE-LID                                                 -->
             <div class="col-3 mcol-1">
                 <div class="person-wrap">
                     <div class="person-image">
@@ -435,9 +354,47 @@
                     </div>
                     <div class="person-details">
                         <h3>Yannis De Maeyer</h3> 
-                        <h4><span>Ere-Lid</span> - </h4>
+                        <h4><span>Peter</span> - </h4>
                         <i class="fa fa-glass"></i>
                         <p style="padding-bottom: 19px;"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="grid">
+            <!--                                                    ERE-LID                                                 -->
+            <div class="col-3 mcol-1">
+                <div class="person-wrap">
+                  <div class="person-image">
+                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Quinten_De_Boeck.jpg" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Quinten_De_Boeck_Zot.jpg" />
+                        <a href="https://www.linkedin.com/in/quinten-de-boeck-376a24241/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="person-details">
+                        <h3>Quinten De Boeck</h3>
+                        <h4><span>Ere-Lid</span> - Industriele wetenschappen: Elektromechanica, UA</h4>
+                        <i class="fa fa-glass"></i> Cara gebrouwen in Noord-Frankrijk
+                        <p style="padding-bottom: 19px;">Het leven is nie voor aan een bushalte te staan</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--                                                    ERE-LID                                                 -->
+            <div class="col-3 mcol-1">
+                <div class="person-wrap">
+                    <div class="person-image">
+                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Robbe_Schillemans.jpg" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>assets/images/praesidium/Robbe_Schillemans_Zot.jpg" />
+                        <a href="https://www.linkedin.com/in/robbe-schillemans-b50724216/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="person-details">
+                        <h3>Robbe Schillemans</h3>
+                        <h4><span>Ere-Lid</span>  - Veiligheidsconsulent, Prevom</h4>
+                        <i class="fa fa-glass"></i> Baco
+                        <p style="padding-bottom: 19px;">Drinken is drinken. Zuipen is kruipen!</p>
                     </div>
                 </div>
             </div>
@@ -459,7 +416,6 @@
                 </div>
             </div>
         </div>
-
         
             <!--                                                    MEDIA                                                 -->
             <!-- <div class="col-3 mcol-1">
@@ -479,5 +435,24 @@
                     </div>
                 </div>
             </div> -->
+
+            <!--                                                     Resident DJ                                                -->
+            <!--<div class="col-3 mcol-1" id="weekie">
+                <div class="person-wrap">
+                    <div class="person-image">
+                        <img class="image-normal" src="<?php echo base_url(); ?>assets/images/praesidium/Axel_Degrande.jpg" />
+                        <img class="image-zot" src="<?php echo base_url(); ?>/assets/images/praesidium/Axel_Degrande_Zot.jpg" />
+                        <a href="https://www.linkedin.com/in/axel-degrande-2119601a7/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="person-details">
+                        <h3>Axel Degrande</h3>
+                        <h4><span>Resident DJ</span> - Industrieel Ingenieur, UA</h4>
+                        <i class="fa fa-glass"></i> Stella op koelkasttemperatuur
+                        <p>Technica goes brrrrrr</p>
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <a href="mailto:residentdj@technica-antwerpen.be">residentdj@technica-antwerpen.be</a>
+                    </div>
+                </div>
+            </div>-->
     </div>
 </div>

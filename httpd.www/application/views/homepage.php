@@ -84,8 +84,8 @@
             </div>-->
             <figure class="block icon-cards" style="margin-top:10%">
                 <div class="icon-cards__content">
-                    <div class="icon-cards__item"><img src="<?php echo base_url(); ?>assets/images/praesidium/Siebe_Perdieus.jpg"/></div>  <!--PRAESES-->
-                    <div class="icon-cards__item"><img src="<?php echo base_url(); ?>assets/images/praesidium/Siebe_Keppers.jpg"/></div>    <!--VICE-PRAESES-->
+                    <div class="icon-cards__item"><img src="<?php echo base_url(); ?>assets/images/praesidium/Siebe_Keppers.jpg"/></div>  <!--PRAESES-->
+                    <div class="icon-cards__item"><img src="<?php echo base_url(); ?>assets/images/praesidium/Senne_Vanhoucke.jpg"/></div>    <!--VICE-PRAESES-->
                     <div class="icon-cards__item"><img src="<?php echo base_url(); ?>assets/images/praesidium/Stef_Van_Loock.jpg"/></div>  <!--QUAESTOR-->
                 </div>
             </figure>
